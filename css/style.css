@@ -78,10 +78,12 @@ header {
 
 footer {
     background: var(--color1);
+    height: 100px;
     padding: 20px;
 }
 footer p {
     text-align: center;
     color: #fff;
+    padding: 8px;
 }
 
