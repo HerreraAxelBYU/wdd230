@@ -11,13 +11,10 @@
   }
 
 body {
-    background: var(--color3);
-    font-family: var(--font1);
-}
-
-.container {
     max-width: 700px;
     margin-inline: auto
+    background: var(--color3);
+    font-family: var(--font1);
 }
 
 header {
