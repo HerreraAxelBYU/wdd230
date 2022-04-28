@@ -12,7 +12,7 @@
 
 body {
     max-width: 700px;
-    margin-inline: auto
+    margin: 0 auto;
     background: var(--color3);
     font-family: var(--font1);
 }
