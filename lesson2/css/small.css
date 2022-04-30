@@ -46,3 +46,6 @@ main {
     font-size: 1.8rem;
     text-decoration: none;
 }
+.example__par p{
+    text-align: center;    
+}
