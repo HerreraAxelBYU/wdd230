@@ -1,0 +1,48 @@
+body {
+    background: var(--color4);
+}
+footer {
+    width: 100%;
+    background: var(--color3);
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+img {
+    width:100%;
+    padding: 2.5rem;
+}
+
+footer h1, h3 {
+    padding: 10px;
+    margin: 10px;
+}
+
+footer h1 {
+    font-size: 2.2rem;
+}
+
+footer h3 {
+    font-size: 1.8rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 1rem;
+}
+
+.example__principle h3 {
+    font-size: 2rem;
+    text-align: center;
+}
+.example__website {
+    padding: 1rem;
+    background: var(--color2);
+    text-align: center;
+}
+
+.example__website a {
+    font-size: 1.8rem;
+    text-decoration: none;
+}

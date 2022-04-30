@@ -1,0 +1,25 @@
+@media only screen and (min-width: 1024px) {
+    footer {
+        width: 100%;
+        background: var(--color3);
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    h1, h3 {
+        padding: 10px;
+        margin: 10px;
+        text-align: center;
+    }
+    main { 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    .example__par {
+        width: 300px;
+    }
+    .example__par p {
+        font-size: 1.4rem;
+        text-align: start;    
+    }
+}
