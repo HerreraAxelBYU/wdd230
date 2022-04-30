@@ -63,8 +63,8 @@ header {
     width: 650px;
     text-align: center;
     list-style: none;
-    font-size: 30px;
-    padding: 15px;
+    font-size: 25px;
+    padding: 12px;
     text-align: start;
     transition: .5s;
 }
