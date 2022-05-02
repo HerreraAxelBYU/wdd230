@@ -1,19 +1,31 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+
 body {
     background: var(--color4);
 }
-footer {
+header {
     width: 100%;
     background: var(--color3);
     padding: 20px;
     margin-bottom: 20px;
 }
 
+.credits {
+    width: 100%;
+    margin: 0;
+}
+
 img {
-    width:100%;
+    width: 100%;
     padding: 2.5rem;
 }
 
-footer h1, h3 {
+header h1, h3 {
     padding: 10px;
     margin: 10px;
 }
@@ -30,6 +42,10 @@ main {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 1rem;
+}
+
+.example {
+    border-bottom: 1px solid #333;
 }
 
 .example__principle h3 {
