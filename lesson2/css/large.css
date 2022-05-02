@@ -11,7 +11,7 @@
     box-sizing: border-box;
   }
 
-@media only screen and (min-width: 1490px) {
+@media only screen and (min-width: 936px) {
     body {
         background: var(--color4);
         display: flex;
@@ -58,19 +58,21 @@
         margin: 0 auto;
     }
 
-    main {
+    .large {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        align-items: start;
+        grid-template-columns: 25% 50% 25%;
         gap: 50px;
+        padding: 20px;
     }
 
-    main img {
+    .large img {
         height: 700px;
         width: 400px;
         transition: .4s;
     }
 
-    main img:hover {
+    .large img:hover {
         transform: scale(1.1);
         box-shadow: 9px 11px 20px -8px rgba(0,0,0,0.75);
     }
@@ -84,8 +86,6 @@
 
     .example__principle {
         width: 500px;
-    }
-    .example__par p{
-        text-align: center;    
+
     }
 }
