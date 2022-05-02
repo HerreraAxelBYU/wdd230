@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 480px) {
     footer {
         width: 100%;
         background: var(--color3);
@@ -10,16 +10,18 @@
         margin: 10px;
         text-align: center;
     }
+
     main { 
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 30px;
+        gap: 35px;
+        padding: 30px;
     }
-    .example__par {
-        width: 300px;
-    }
+    
     .example__par p {
-        font-size: 1.4rem;
-        text-align: start;    
+        font-size: 1.4rem;    
+    }
+    .large h3 {
+        font-size: 1.5rem;
     }
 }
