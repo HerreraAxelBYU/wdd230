@@ -14,10 +14,6 @@
 @media only screen and (min-width: 936px) {
     body {
         background: var(--color4);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     header {
         width: 100%;
@@ -45,7 +41,6 @@
         padding: 10px;
         margin: 10px;
         background: var(--color2);
-        width: 400px;
         text-align: center;
     }
 
@@ -53,6 +48,7 @@
         width: 300px;
     }
     .example {
+        width: 350px;
         border: 1px solid #333;
     }
 
@@ -66,22 +62,19 @@
     .example__website a:hover {
         color: var(--color4);
     }
-    .container { 
-        max-width: 1490px;
-        margin: 0 auto;
-    }
 
     .large {
+        max-width: 1100px;
+        margin: 0 auto;
         display: grid;
-        align-items: start;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px;
         padding: 20px;
     }
 
     .large img {
-        height: 700px;
-        width: 400px;
+        height: 600px;
+        width: 350px;
         transition: .4s;
     }
 
@@ -96,9 +89,5 @@
         justify-content: center;
         align-items: center;
     }
-
-    .example__principle {
-        width: 500px;
-
-    }
 }
+
