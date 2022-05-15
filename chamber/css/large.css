@@ -1,5 +1,7 @@
 @media only screen and (min-width: 64em) {
-
+    p {
+        font-size: 1.2rem;
+    }
     header .header__logo img {
         height: 250px;
         width: 250px;
@@ -16,6 +18,13 @@
         justify-items: center;
         
     }
+
+    /** ===== NAV BAR ===== **/
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
     header nav ul {
         display: flex;
     }
@@ -24,33 +33,51 @@
         font-size: 1.5rem;
         border: none;
     }
+    
+    .icons_nav {
+        padding: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .icons_nav img {
+        margin: 10px;
+    }
+
     header .header__date {
         grid-column: 1 / 3;
         text-align: center;
     }
-
-
     main {
+        height: 900px;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3,1fr);
-        gap: 1rem;
+        gap: 2rem;
+        padding: 2.5rem;
+    }
+    main div {
+        height: auto;
     }
     .hero {
-        grid-column-start: 2;
-        grid-column-end: 4;
+        height: auto;
+        grid-column: 2 / 4;
         grid-row: 1 / 3;
     }
+    .spotlight__container div:nth-child(3){
+        display: block;
+    }
     .spotlight__container {
-        grid-column-start: 4;
-        grid-column-end: 5;
+        height: auto;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-column: 4 / 5;
         grid-row-start: 1;
-        grid-row-end: 3;
+        grid-row-end: 4;
     }
     .event {
         grid-column-start: 1;
         grid-column-end: 2;
-        grid-row: 1;
+        grid-row: 1 ;
     }
     .weather {
         grid-column-start: 1;
@@ -72,5 +99,18 @@
         grid-template-columns: repeat(2 1fr);
         align-items: center;
         justify-content: center;
+    }
+
+    footer .footer__img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    footer .footer__para__info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border:  none;
     }
 }
