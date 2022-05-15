@@ -1,7 +1,4 @@
 :root {
-    --color1: #730000;
-    --color2: #882300;
-    --color3: #dffed8;
     --font1: 'Karla', sans-serif;
 }
 
@@ -30,6 +27,12 @@ header .header__logo__hamburger {
     align-items: center;
 }
 
+.header__hamburger a {
+    background-color: #fff;
+    color: #000;
+    font-size: 1rem;
+}
+
 header .header__logo img {
     width: 100px;
     height: 100px;
@@ -42,6 +45,24 @@ header .hambuger {
     font-size: 2rem;
 }
 
+/** === HAMBURGUER AND ICONS === **/
+
+.header__hamburger {
+    width: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** ===== ICONS ===== **/
+.header__hamburger a {
+    background-color: transparent;
+    text-decoration: none;
+}
+.icons{
+    height: 1.5rem;
+}
+
 #hamburger-button span:nth-child(2){
     display: none;
 }
@@ -49,6 +70,8 @@ header .hambuger {
 .open {
     display: block;
 }
+
+/** ===== NAV BAR  ===== **/
 
 nav ul {
     display: none;
@@ -63,12 +86,20 @@ nav ul li a {
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
+.icons_nav {
+    display: none;
+}
+
 .header__date {
     width: 80%;
     margin: 0 auto;
     background-color: #8cb8ff;
     box-sizing: content-box;
     padding: 15px;
+}
+
+main {
+    padding: 1rem;
 }
 
 main div {
@@ -117,4 +148,8 @@ footer p {
 
 .footer__para__info {
     border-bottom: 1px solid #fff;
+}
+
+.footer__para__info p i {
+    color: red;
 }
