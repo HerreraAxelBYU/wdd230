@@ -15,6 +15,18 @@
     main div {
         height: 200px;
     }
+    .header__hamburger {
+        width: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .icons{
+        height: 1.8rem;
+        margin: -10px;
+    }
+    
     .spotlight__container {
         height: 250px;
         display: grid;
