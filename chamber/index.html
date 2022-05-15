@@ -7,6 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&display=swap" rel="stylesheet">
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/medium.css">
@@ -20,6 +24,8 @@
                 <img src="./images/logo.png" alt="">
             </div>
             <div class="header__hamburger">
+                <a href="#"><img class="icons" src="./images/icons8-facebook.svg" alt=""></a>
+                <a href="#"><img class="icons" src="./images/icons8-linkedin-circled.svg" alt=""></a>
                 <button class="hambuger" id="hamburger-button"><span>&#9776;</span><span>X</span></button>
             </div>
         </div>
@@ -31,6 +37,11 @@
                 <li><a href="#">Join</a></li>
                 <li><a href="#">Contact</a></li>    
             </ul>
+            <div class="icons_nav">
+                <a href="#"><img class="icons" src="./images/icons8-facebook.svg" alt=""></a>
+                <a href="#"><img class="icons" src="./images/icons8-linkedin-circled.svg" alt=""></a>
+            </div>
+
         </nav>
         <div class="header__date">
             
@@ -74,13 +85,14 @@
             <p>Lorem, ipsum dolor</p>
             <p>info@BuenosAiresChamber.org</p>
             <p>(011) 555-4444</p>
-            <p>Location map</p>
+            <p><i class='bx bx-location-plus'></i>Location map</p>
         </div>
         
         <div class="footer__project">
             <p>Buenos Aires Chamber <span>|</span></p>
             <p>Axel Herrera <span>|</span></p>
-            <p>WDD 230 Project</p>
+            <p>WDD 230 Project <span>|</span></p>
+            <p class="date"></p>
             <p class="last__modification"></p>
         </div>
     </footer>
