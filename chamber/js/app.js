@@ -5,6 +5,8 @@ const today = new Date(document.lastModified);
 const current_date = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
 	today);
 const date = document.querySelector('.last__modification');
+const fecha = new Date();
+const day = fecha.getDay();
 
 
 function toggleMenu(){
@@ -12,6 +14,17 @@ function toggleMenu(){
     document.querySelector('#hamburger-button').classList.toggle('open');
     console.log('Soy el mejor');
 }
+
+function showBanner() {
+    if (day === 0 && day === 1) {
+        banner.textContent = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
+    }
+    else {
+        None
+    }
+}
+
+showBanner();
 
 hamburger.onclick = toggleMenu;
 container_date.innerHTML = `<p>${current_date}</p>`;
