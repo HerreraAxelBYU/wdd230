@@ -346,3 +346,12 @@ footer p {
 .footer__para__info p i {
     color: red;
 }
+
+/** 
+   ====== BANNER ======
+**/
+
+#banner {
+    background: var(--color1);
+    text-align: center;
+}
