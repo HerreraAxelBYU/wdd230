@@ -211,7 +211,7 @@
     .images_second_page {
         width: 90%;
         height: 100%;
-        background-image: url(/images/buenos_aires_1280.jpg);
+        background-image: url(/images/buenos_aires_1280.webp);
         background-size: contain;
         background-position: center;
         background-repeat: no-repeat;
