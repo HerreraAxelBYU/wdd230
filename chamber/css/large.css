@@ -172,7 +172,7 @@
 
     .wrapper {
         max-width: 100%;
-        max-height: 600px;
+        max-height: 48rem;
         display: grid;
         grid-template-columns: 60% 40%;
         gap: 1rem;
@@ -188,6 +188,8 @@
 
 
     .info_images ul {
+        width: auto;
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
@@ -195,26 +197,28 @@
     }
 
     .info_images ul li {
-        
+        padding: 1rem;
+        height: fit-content;
         list-style: none;
         border-bottom: 1px solid rgb(184, 183, 183);
         font-family: 'Raleway', sans-serif;
         font-size: 1.1rem;
+        transition-duration: 0.3s;
     }
-    .cont_images {
-        width: 90%;
-        height: 90%;
-        display: flex;
+    .info_images ul li:hover {
+        color: #fff;
+        background-color: rgb(122, 123, 123);
     }
-
-
+ 
     .images_second_page {
-        width: 90%;
-        height: 100%;
+        margin: 0 auto;
+        width: 95%;
+        max-height: 90%;
         background-image: url(/images/buenos_aires_1280.webp);
-        background-size: contain;
         background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
+        box-shadow: 2px 12px 15px -7px rgba(0,0,0,0.75);
     }
 
 

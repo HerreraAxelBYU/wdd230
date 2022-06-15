@@ -1,137 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&family=Raleway:ital,wght@0,200;1,300&display=swap" rel="stylesheet">
-    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/medium.css">
-    <link rel="stylesheet" href="./css/large.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@300;400;700&family=Raleway:ital,wght@0,200;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/base.css" />
+    <link rel="stylesheet" href="./css/medium.css" />
+    <link rel="stylesheet" href="./css/large.css" />
 
     <title>Discover</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- H E R E  S T A R T S  T H E  H E A D E R -->
     <header>
-        
-        <div class="header__logo__hamburger">
-            <div class="header__logo">
-                <img src="./images/logo.webp" alt="">
-            </div>
-            <h6 class="title">Buenos Aires Chamber of Commerce</h6>
-            <div class="header__hamburger">
-                <a href="#"><img class="icons" src="./images/icons8-facebook.svg" alt=""></a>
-                <a href="#"><img class="icons" src="./images/icons8-linkedin-circled.svg" alt=""></a>
-                <button class="hambuger" id="hamburger-button"><span>&#9776;</span><span>X</span></button>
-            </div>
+      <div class="header__logo__hamburger">
+        <div class="header__logo">
+          <img src="./images/logo.webp" alt="" />
         </div>
-        <!-- H E R E  S T A R T S  T H E  N A V I G A T I O N -->
-        <nav class="stroke">
-            <ul id="primaryNav">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./discover.html">Discover</a></li>
-                <li class="active"><a href="#">Directory</a></li>
-                <li><a href="#">Join</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <div class="icons_nav">
-                <a href="#"><img class="icons" src="./images/icons8-facebook.svg" alt=""></a>
-                <a href="#"><img class="icons" src="./images/icons8-linkedin-circled.svg" alt=""></a>
-            </div>
-
-        </nav><!-- H E R E  E N D S  T H E  N A V I G A T I O N -->
-        <div class="header__date">
-
+        <h6 class="title">Buenos Aires Chamber of Commerce</h6>
+        <div class="header__hamburger">
+          <a href="#"
+            ><img class="icons" src="./images/icons8-facebook.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img
+              class="icons"
+              src="./images/icons8-linkedin-circled.svg"
+              alt=""
+          /></a>
+          <button class="hambuger" id="hamburger-button">
+            <span>&#9776;</span><span>X</span>
+          </button>
         </div>
-    </header><!-- H E R E  E N D S  T H E  H E A D E R -->
+      </div>
+      <!-- H E R E  S T A R T S  T H E  N A V I G A T I O N -->
+      <nav class="stroke">
+        <ul id="primaryNav">
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./discover.html">Discover</a></li>
+          <li class="active"><a href="#">Directory</a></li>
+          <li><a href="#">Join</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="icons_nav">
+          <a href="#"
+            ><img class="icons" src="./images/icons8-facebook.svg" alt=""
+          /></a>
+          <a href="#"
+            ><img
+              class="icons"
+              src="./images/icons8-linkedin-circled.svg"
+              alt=""
+          /></a>
+        </div>
+      </nav>
+      <!-- H E R E  E N D S  T H E  N A V I G A T I O N -->
+      <div class="header__date"></div>
+    </header>
+    <!-- H E R E  E N D S  T H E  H E A D E R -->
 
     <section class="wrapper">
-        <div class="cont_images">
-            
-            <picture class="images_second_page kenburns-top">
-                <img id="picture1" class="" src="" alt="">
-            </picture>
-            
-            
-        </div>
-        <div class="info_images">
-            <ul>
-                <li id="name1" onmouseover="changeImage()">
-                    <h3>Teatro Colon</h3>
-                    <p>El Teatro Colon es</p>
-                </li>
-                <li id="name2" onmouseover="changeImage2()">
-                    <h3>La Casa Rosada</h3>
-                    <p>El Teatro Colon es</p>
-                </li>
-                <li id="name3" onmouseover="changeImage3()">
-                    <h3>Bosques de Palermo</h3>
-                    <p>El Teatro Colon es</p>
-                </li>
-                <li id="name4" onmouseover="changeImage4()">
-                    <h3>Población</h3>
-                    <p>El Teatro Colon es</p>
-                </li>
-                <li id="name5" onmouseover="changeImage5()">
-                    <h3>Tango</h3>
-                    <p>El Teatro Colon es</p>
-                </li>
-            </ul>
-        </div>
+      <picture class="images_second_page"></picture>
+      <div class="info_images">
+        <ul>
+          <li id="name1" onmouseover="changeImage()">
+            <h3>Colon Theather</h3>
+            <p>
+              The Colon Theater is one of the most important opera houses of the
+              world. Its rich and prestigious track record and the exceptional
+              acoustic and architectural features of its building place it at
+              the level of theaters such as La Scala in Milan, the Paris Opera,
+              the Vienna State Opera, London's Covent Garden and the
+              Metropolitan NY
+            </p>
+          </li>
+          <li id="name2" onmouseover="changeImage2()">
+            <h3>Casa Rosada</h3>
+            <p>
+              The Casa Rosada is the seat of the Executive Power of the
+              Argentine Republic. Inside it is the office of the president of
+              the Argentine Nation
+            </p>
+          </li>
+          <li id="name3" onmouseover="changeImage3()">
+            <h3>Bosques de Palermo</h3>
+            <p>
+              The huge Tres de Febrero Park, also known as Los bosques de
+              Palermo (The Forests of Palermo), is one of the city's most
+              popular open spaces
+            </p>
+          </li>
+          <li id="name4" onmouseover="changeImage4()">
+            <h3>Population</h3>
+            <p>Argentina population</p>
+          </li>
+          <li id="name5" onmouseover="changeImage5()">
+            <h3>Tango</h3>
+            <p>
+              Tango is one of the most famous and influential dances in the
+              world. Originating in Buenos Aires in the 18th century, tango
+              brought together working class European immigrants, indigenous
+              Argentinians and former slaves. As a result, tango has shaped
+              Argentinian culture and society. The dance’s popularity meant that
+              it quickly expanded out of Argentina, with several different
+              styles developing in Europe and North America. With its rich
+              history, tango is a fascinating tradition in dance which reveals a
+              wealth of information about Argentina traditions.
+            </p>
+          </li>
+        </ul>
+      </div>
     </section>
-
 
     <!-- H E R E  S T A R T S  T H E  F O O T E R -->
     <footer>
-        <div class="footer__img">
-            <img src="./images/logo.webp" alt="">
-        </div>
-        <div class="footer__para__info">
-            <p>Lorem, ipsum dolor</p>
-            <p>info@BuenosAiresChamber.org</p>
-            <p>(011) 555-4444</p>
-            <p><i class='bx bx-location-plus'></i>Location map</p>
-        </div>
+      <div class="footer__img">
+        <img src="./images/logo.webp" alt="" />
+      </div>
+      <div class="footer__para__info">
+        <p>Lorem, ipsum dolor</p>
+        <p>info@BuenosAiresChamber.org</p>
+        <p>(011) 555-4444</p>
+        <p><i class="bx bx-location-plus"></i>Location map</p>
+      </div>
 
-        <div class="footer__project">
-            <p>Buenos Aires Chamber | Axel Herrera | WDD 230 Project</p>
-            <p class="date"></p>
-            <p class="last__modification"></p>
-        </div>
-    </footer><!-- H E R E  E N D S  T H E  F O O T E R -->
+      <div class="footer__project">
+        <p>Buenos Aires Chamber | Axel Herrera | WDD 230 Project</p>
+        <p class="date"></p>
+        <p class="last__modification"></p>
+      </div>
+    </footer>
+    <!-- H E R E  E N D S  T H E  F O O T E R -->
 
     <!-- *********** J A V A S C R I P T  C O D E *********** -->
     <script src="./js/app.js"></script>
     <script>
-        /** CAMBIAR IMAGENES  **/
+      /** CAMBIAR IMAGENES  **/
 
-        const lista1 = document.querySelector(".name1");
-        const picture_1 = document.querySelector(".images_second_page")
+      const lista1 = document.querySelector(".name1");
+      const picture_1 = document.querySelector(".images_second_page");
 
-        const images = ["'/images/bosques-de-palermo.jpg'","'/images/teatro_colon_interior_nicolas1500x610.jpg'","'/images/casarosada.jpg'"]
-        
-        const changeImage = () => {
-            picture_1.style.backgroundImage = "url('images/teatro_colon_interior_nicolas1500x610.webp')";
-        }
-        const changeImage2 = () => {
-            picture_1.style.backgroundImage = "url('images/casarosada.webp')";
-        }
-        const changeImage3 = () => {
-            picture_1.style.backgroundImage = "url('images/bosques-de-palermo.webp')";
-        }
-        const changeImage4 = () => {
-            picture_1.style.backgroundImage = "url('images/poblacion_Argentina.webp')";
-        }
-        const changeImage5 = () => {
-            picture_1.style.backgroundImage = "url('images/tango_argentina.webp')";
-        }
-
-        
+      const changeImage = () => {
+        picture_1.style.backgroundImage =
+          "url('images/teatro_colon_interior_nicolas1500x610.webp')";
+      };
+      const changeImage2 = () => {
+        picture_1.style.backgroundImage = "url('images/casarosada.webp')";
+      };
+      const changeImage3 = () => {
+        picture_1.style.backgroundImage =
+          "url('images/bosques-de-palermo.webp')";
+      };
+      const changeImage4 = () => {
+        picture_1.style.backgroundImage =
+          "url('images/poblacion_Argentina.webp')";
+      };
+      const changeImage5 = () => {
+        picture_1.style.backgroundImage = "url('images/tango_argentina.webp')";
+      };
     </script>
-</body>
+  </body>
 </html>
