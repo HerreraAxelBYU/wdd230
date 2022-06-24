@@ -34,10 +34,6 @@ const showWeather = (info) => {
     wind.innerHTML = `${wind_speed} Km/h`;
     wind_chill.innerHTML = `${sensacion} &#8451`;
 
-    console.log(temperature);
-    console.log(description.main)
-    console.log(wind);
-
     icons(description.main, image);
     
 }

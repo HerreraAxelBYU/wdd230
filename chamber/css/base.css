@@ -1,5 +1,7 @@
 :root {
-    --principalColor: #314e99;
+    --principalColor: #EDE6DB;
+    --principalHover: #b9b4ac;
+    --headerColor: #417D7A;
     --color1: #8cb8ff;
     --color2: #faeeff;
     --color3: #141a35;
@@ -19,12 +21,16 @@ body {
     font-family: var(--font1);
 }
 
+h1,h2,h3,h4,h5,h6,p {
+    color: #000;
+}
+
 /** 
    ==== H E A D E R ====
 **/
 
 header {
-    background-color: var(--principalColor);
+    background-color: var(--headerColor);
     
 }
 
@@ -53,7 +59,7 @@ header .header__logo img {
 
 header .hambuger {
     background-color: transparent;
-    color: #fff;
+    
     border: none;
     font-size: 2rem;
 }
@@ -108,7 +114,7 @@ nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #fff;
+    color: #000;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -151,6 +157,7 @@ main div {
     position: relative;
     padding: 0;
 }
+
 
 figure {
     padding: 0;
@@ -198,7 +205,7 @@ figure img{
     
 }
 .event p, .event h3, .event h6 {
-    color: #fff;
+    color: #000;
     padding: 0.8rem;
 }
 
@@ -215,10 +222,12 @@ figure img{
 .event p {
     font-size: 1.2rem;
     text-align: center;
+    color: #000;
 }
 
 .event h6 {
     font-size: 1.2rem;
+    color: #000;
 }/* ------------------- */
 
 /* === WEATHER === */
@@ -239,6 +248,7 @@ figure img{
     align-items: center;
     border-bottom: 1px solid var(--color2);
     box-shadow: none;
+    
 }
 .weather .weather__widget img {
     width: 6rem;
@@ -251,6 +261,7 @@ figure img{
     flex-direction: column;
     justify-content: center;
     border: none;
+    
 }
 .weather__description p:nth-child(1) {
     padding: 0.3rem;
@@ -270,12 +281,19 @@ figure img{
 }
 .weather__text p{
     font-size: 1.3rem;
-    color: var(--color2);
+}
+
+#temperature{
+    color: #000;
+}
+#description {
+    color: #000;
 }
 
 .widget {
-    height: 100%;
-    width: 100%;
+    height: 8rem;
+    width: 8rem;
+    
 }
 
 /* ------------------- */
@@ -296,7 +314,7 @@ figure img{
 .news_release p {
     text-align: center;
     font-size: 1.2rem;
-    color: var(--color2);
+    color: #000;
 }/* ------------------- */
 
 /* === SPOTLIGHT ===*/
@@ -323,7 +341,7 @@ figure img{
     text-align: center;
     font-size: 1.1rem;
     padding: 0.1rem;
-    color: var(--color2);
+    color: #000;
 }
 .spotlight__transport, .sportlight__codePrimera{
     display: flex;
@@ -332,6 +350,7 @@ figure img{
 }
 .spotlight__transport h3{
     text-align: center;
+    
 }
 #spotlight__info {
     height: 50px;
@@ -341,7 +360,9 @@ figure img{
 
 .join {
     display: none;
-}/* ------------------- */
+}
+
+/* ------------------- */
 
 /** 
     ==== FOOTER ====

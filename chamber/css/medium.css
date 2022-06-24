@@ -1,4 +1,9 @@
 @media only screen and (min-width: 35rem) {
+
+    h1,h2,h3,h4,h5,h6,p {
+        color: #000;
+    }
+
     header .header__logo img {
         width: 200px;
         height: 200px;
@@ -155,39 +160,46 @@
     /* ======== SECOND PAGE - DISCOVER !!! ========== */
 
     .wrapper {
-        width: 100%;
-        max-height: 550px;
+        max-width: 100%;
+        max-height: 63rem;
         display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(2, 1fr);
-        
+        grid-template-columns: repeat(2,1fr);
+        margin: 3rem 0 3rem 0;
         /**border: 1px solid red;**/
     }
     .info_images ul {
+        width: auto;
+        height: auto;
         display: flex;
+        flex-direction: column;
         justify-content: flex-end;
         gap: 10px;
     }
 
     .info_images ul li {
-        height: 5rem;
+        padding: 1rem;
+        height: fit-content;
         list-style: none;
         border-bottom: 1px solid rgb(184, 183, 183);
         font-family: 'Raleway', sans-serif;
         font-size: 1.1rem;
+        transition-duration: 0.3s;
     }
-    .cont_images {
-        width: 100%;
-        height: 300px;
-        display: flex;
+    
+    .info_images ul li:hover {
+        color: #fff;
+        background-color: rgb(122, 123, 123);
     }
 
     .images_second_page {
-        width: 100%;
-        height: 100%;
-        background-image: url(/images/buenos_aires_1280.jpg);
-        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 95%;
+        height: 50%;
+        background-image: url(/images/buenos_aires_1280.webp);
+        background-position: center;
         background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 2px 12px 15px -7px rgba(0,0,0,0.75);
     }
-
+   
 }

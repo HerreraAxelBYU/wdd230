@@ -71,7 +71,10 @@
     <!-- H E R E  E N D S  T H E  H E A D E R -->
 
     <section class="wrapper">
-      <picture class="images_second_page"></picture>
+        <div class="imagenes_2">
+            <img class="changingImage" src="./images/buenos_aires_1280.webp" alt="">
+        </div>
+      
       <div class="info_images">
         <ul>
           <li id="name1" onmouseover="changeImage()">
@@ -147,27 +150,22 @@
     <script src="./js/app.js"></script>
     <script>
       /** CAMBIAR IMAGENES  **/
+    const picture_1 = document.querySelector(".changingImage");
 
-      const lista1 = document.querySelector(".name1");
-      const picture_1 = document.querySelector(".images_second_page");
-
-      const changeImage = () => {
-        picture_1.style.backgroundImage =
-          "url('images/teatro_colon_interior_nicolas1500x610.webp')";
+    const changeImage = () => {
+        picture_1.setAttribute("src",'images/teatro_colon_interior_nicolas1500x610.webp');
       };
-      const changeImage2 = () => {
-        picture_1.style.backgroundImage = "url('images/casarosada.webp')";
+    const changeImage2 = () => {
+        picture_1.setAttribute("src",'images/casarosada.webp');
       };
-      const changeImage3 = () => {
-        picture_1.style.backgroundImage =
-          "url('images/bosques-de-palermo.webp')";
+    const changeImage3 = () => {
+        picture_1.setAttribute("src",'images/bosques-de-palermo.webp');
       };
-      const changeImage4 = () => {
-        picture_1.style.backgroundImage =
-          "url('images/poblacion_Argentina.webp')";
+    const changeImage4 = () => {
+        picture_1.setAttribute("src",'images/poblacion_Argentina.webp');
       };
-      const changeImage5 = () => {
-        picture_1.style.backgroundImage = "url('images/tango_argentina.webp')";
+    const changeImage5 = () => {
+        picture_1.setAttribute("src",'images/tango_argentina.webp');
       };
     </script>
   </body>
