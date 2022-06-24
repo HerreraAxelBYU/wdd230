@@ -179,6 +179,10 @@
 
     /** ========= SECOND PAGE - DISCOVER !!! ========== **/
 
+    .wrapper-mobile {
+        display: none;
+    }
+
     .wrapper {
         max-width: 100%;
         max-height: 48rem;
@@ -216,7 +220,7 @@
     }
     .info_images ul li:hover {
         color: #fff;
-        background-color: rgb(122, 123, 123);
+        background-color: rgb(156, 156, 156);
     }
 
     .imagenes_2 {

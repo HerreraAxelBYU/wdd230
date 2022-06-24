@@ -409,3 +409,51 @@ footer p {
     background: var(--color1);
     text-align: center;
 }
+
+
+
+/** 
+*
+*
+
+========= S E C O N D  P A G E =========
+
+*
+*
+**/
+.wrapper {
+    display: none;
+}
+
+.wrapper-mobile {
+    display: grid;
+    grid-template-columns: repeat(1 , 1fr);
+    justify-items: center;
+    margin-top: 1rem;
+    padding: 1rem;
+    gap: 1.4rem;
+}
+
+.mobile-card {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    border: #417D7A 1px solid;
+    border-radius: 1rem;
+}
+
+.mobile-card img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+.mobile-card h3 {
+    padding: .5rem;
+    text-align: center;
+}
+
+.mobile-card p {
+    padding: .5rem;
+    text-align: center;
+}
