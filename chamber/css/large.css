@@ -178,6 +178,9 @@
     }
 
     /** ========= SECOND PAGE - DISCOVER !!! ========== **/
+    /** ========= SECOND PAGE - DISCOVER !!! ========== **/
+    /** ========= SECOND PAGE - DISCOVER !!! ========== **/
+    /** ========= SECOND PAGE - DISCOVER !!! ========== **/
 
     .wrapper-mobile {
         display: none;
@@ -243,45 +246,79 @@
         display: none;
     }
 
-}
 
+    /** 
+    *
+    *
+        ======== JOIN PAGE =========
+        ======== JOIN PAGE =========
+        ======== JOIN PAGE =========
 
+    *
+    *   
+    **/
 
+    .join-grid {
+        width: 90%;
+        margin: 2rem auto;
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        border: 1px solid black;
+    }
 
+    .formulario legend {
+        padding: .5rem;
+        text-align: center;
+        font-size: 1.5rem;
+    }
 
+    .names, .info {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
 
+    .names input, .info input {
+        width: 80%;
+        margin-bottom: .5rem;
+        margin-top: .5rem;
+        padding: .4rem;
+        background: transparent;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid black;
+    }
+    fieldset section {
+        margin: 1rem;
+        padding: 1rem;
+    }
 
+    .form2 {
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+    }
 
+    .form2 label, input {
+        padding: .5rem;
+        margin: .5rem;
+        font-size: 1.2rem;
+    }
+    .form3 {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #vip {
+        display: grid;
+        grid-template-columns: repeat(1 ,1fr);
+        height: 100%;
+    }
 
-
-
-
-
-
-
-
-
-/** ============== THIRD PAGE - JOIN PAGE ============== **/
-
-.join-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.form1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.form1 {
-    display: flex;
-    flex-direction: column;
-}
-
-.section_form {
-    display: grid;
-    grid-template-columns: repeat(2, fr);
-    width: 50%;
-    margin: 0.1rem 1rem;
-    padding: 0.5rem;
+    #vip div {
+        height: 270px;
+        padding: 1rem;
+    }
+    #vip ul li {
+        margin: 1rem;
+    }
 }
 

@@ -457,3 +457,57 @@ footer p {
     padding: .5rem;
     text-align: center;
 }
+
+/** 
+*
+*
+
+========= T H I R D  P A G E =========
+
+*
+*
+**/
+
+
+.names, .info {
+    display: grid;
+    grid-template-columns: repeat(1,fr);
+    margin-bottom: 1rem;
+}
+.names label, input,
+.info label, input,
+.form2 label, input {
+    padding: .3rem;
+}
+.form2 input {
+    margin-left: 1rem;
+}
+#businesspo {
+    grid-row: 2/3;
+}
+
+#phone {
+    grid-row: 6/7;
+}
+
+#firstname {
+    grid-row: 2/3;
+}
+
+.form2 {
+    display: flex;
+    flex-direction: column;
+}
+.form3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form3 textarea {
+    width: 100%;
+}
+
+.vip {
+    display: none;
+}
+
