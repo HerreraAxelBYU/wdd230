@@ -71,7 +71,7 @@
         text-align: center;
     }
 
-    main {
+    .first_main {
         width: 90%;
         height: 75rem;
         display: grid;

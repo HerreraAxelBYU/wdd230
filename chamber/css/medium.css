@@ -13,11 +13,11 @@
         font-size: 1.1rem;
     }
 
-    .first_main {
+    main {
         display: grid;
         grid-template-columns: 50% 50%;
     }
-    .first_main div {
+    main div {
         height: 200px;
     }
     .header__hamburger {

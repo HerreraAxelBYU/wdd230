@@ -95,7 +95,7 @@ const icons = (weather, div) => {
 
 }
 
-getAPI('Buenos Aires', 'AR');
+getAPI('Buenos aires', 'AR');
 
 
 

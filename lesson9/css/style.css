@@ -1,0 +1,17 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.cards section {
+    text-align: center;
+    margin: .5rem;
+}
+
+.cards h2, p {
+    display: none;
+}
+
+.text {
+    display: block;
+}
