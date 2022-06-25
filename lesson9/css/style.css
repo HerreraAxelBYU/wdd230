@@ -4,14 +4,34 @@
     
 }
 .cards section {
+    background-color: grey;
+    margin: 0 auto;
     text-align: center;
     margin: .5rem;
+    border-radius: 1rem;
+    transition: .4s;
+}
+
+.cards img {
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    opacity: .5;
+    transition: .4s;
+}
+.cards img:hover {
+    opacity: 100;
+}
+
+.cards section:hover {
+    background-color: aliceblue;
+    transform: translateY(-10px);
+    box-shadow: 2px 12px 15px -7px rgba(0,0,0,0.75);
 }
 
 .cards h2, p {
-    display: none;
+    letter-spacing: 2px;
+    font-family: 'Rubik Moonrocks', cursive;
 }
 
-.text {
-    display: block;
-}
+
+

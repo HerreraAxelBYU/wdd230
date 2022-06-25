@@ -28,8 +28,8 @@ const displayProphets = (prophet) =>  {
     card.appendChild(p2);
     portrait.onmouseover = function(){
         h2.classList.toggle("text");
-        p2.classList.toggle("text");
-        p.classList.toggle("text");
+        p2.classList.toggle("text3");
+        p.classList.toggle("text2");
     }
     
     
