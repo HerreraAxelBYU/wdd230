@@ -13,7 +13,6 @@ const banner = document.querySelector('#banner');
 function toggleMenu(){
     document.querySelector('#primaryNav').classList.toggle('open');
     document.querySelector('#hamburger-button').classList.toggle('open');
-    console.log('Soy el mejor');
 }
 
 function showBanner(banner) {
@@ -85,5 +84,7 @@ const imgObserver = new IntersectionObserver( (entries, imgObserver) => {
 images.forEach(image => {
     imgObserver.observe(image);
 });
+
+console.log("hi")
 
 
