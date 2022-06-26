@@ -1,10 +1,5 @@
 {"companies":[
     {
-        "name": "Adidas",
-        "address": "Cuyo 3532/3512 – Edificio III – Martínez, San Isidro, Buenos Aires, Argentina (CP 1640)",
-        "web-site": "https://www.adidas.com.ar/"
-    },
-    {
         "name": "Arcor",
         "address": "Avenida Fulvio Salvador Pagani 487. Arroyito, Cordoba, Argentina",
         "web-site": "https://www.arcor.com/ar/",
