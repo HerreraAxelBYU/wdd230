@@ -532,6 +532,15 @@ footer p {
     justify-items: center;
 }
 
-.companies__grid p {
+.company__div {
+    height: 12rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0px 12px 15px -7px rgba(0,0,0,0.75);
+}
+
+.company__div p {
     text-align: center;
+    padding: .4rem;
 }
