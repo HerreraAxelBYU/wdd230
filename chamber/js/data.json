@@ -2,72 +2,72 @@
     {
         "name": "Adidas",
         "address": "Cuyo 3532/3512 – Edificio III – Martínez, San Isidro, Buenos Aires, Argentina (CP 1640)",
-        "web-site": "https://www.adidas.com.ar/"
+        "web": "https://www.adidas.com.ar/"
     },
     {
         "name": "Arcor",
         "address": "Avenida Fulvio Salvador Pagani 487. Arroyito, Cordoba, Argentina",
-        "web-site": "https://www.arcor.com/ar/",
+        "web": "https://www.arcor.com/ar/",
         "number": "0800 333 3033"
     },
     {
-        "name": "La Serenisima0",
+        "name": "La Serenisima",
         "address": "Alte. Brown 957 (B1748KFS), Gral. Rodríguez, Buenos Aires.",
-        "web-site": "https://www.laserenisima.com.ar/index.php",
+        "web": "https://www.laserenisima.com.ar/index.php",
         "number": "0237-4859000"
     },
     {
         "name": "Sancor",
         "address": "Tte. Gral. Richieri 15 – S2322FYA - Sunchales. Provincia de Santa Fe",
-        "web-site": "http://www.sancor.com/principal/SanCor?es",
+        "web": "http://www.sancor.com/principal/SanCor?es",
         "number": "03493-428000"
     },
     {
         "name": "La Paulina",
         "address": "Argentina,  Buenos Aires ,  Beccar,  1643,  Valentín Virasoro 2656 Piso 1°",
-        "web-site": "https://www.lapaulina.com.ar/es",
+        "web": "https://www.lapaulina.com.ar/es",
         "number": "+54 (11) 471-982-00"
     },
     {
         "name": "Mercado Libre",
         "address": "Av. Caseros 3039, Piso 2, CP 1264, Parque Patricios, CABA",
-        "web-site": "https://www.mercadolibre.com.ar/",
+        "web": "https://www.mercadolibre.com.ar/",
         "number": "0800-637-7246"
     },
     {
         "name": "Don Satur",
         "address": "Av. Del Libertador 110 1° A. Vicente López | CP B1638BEN | Buenos Aires | Argentina",
-        "web-site": "https://www.donsatur.com.ar/",
+        "web": "https://www.donsatur.com.ar/",
         "number": "0810-333-72887"
     },
     {
         "name": "Marolio",
         "address": "Acceso Oeste (Gaona) 8676/8742, La Reja-Moreno - Bs. As. Argentina",
-        "web-site": "http://www.marolio.com.ar/",
+        "web": "http://www.marolio.com.ar/",
         "number": "0800-777-6276"
     },
     {
         "name": "Grido",
         "address": "Av. Gral. Savio 4000 Parque Industrial Ferreyra. Lote 20. Ferreryra. Córdoba, Argentina.",
-        "web-site": "https://www.argentina.gridohelado.com/",
+        "web": "https://www.argentina.gridohelado.com/",
         "number": "54-0351-497-1600"
     },
     {
         "name": "Ilolay",
         "address": "Bv. Presidente Roca 883 (2300) Rafaela, Santa Fe, Argentina",
-        "web-site": "https://www.ilolay.com.ar/es",
+        "web": "https://www.ilolay.com.ar/es",
         "number": "0810-444-0050"
     },
     {
         "name": "Despegar",
         "address": "Av. Jujuy 2013 CABA, Arg",
-        "web-site": "https://www.despegar.com.ar/",
+        "web": "https://www.despegar.com.ar/",
         "number": "0800-800-1682"
     },
     {
         "name": "Telecom",
         "address": "General Hornos 690 - Ciudad de Bs. As.",
-        "web-site": "https://www.telecom.com.ar/",
+        "web": "https://www.telecom.com.ar/",
         "number": "0800-888-0800"
     }
 

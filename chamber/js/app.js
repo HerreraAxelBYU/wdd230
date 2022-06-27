@@ -85,6 +85,6 @@ images.forEach(image => {
     imgObserver.observe(image);
 });
 
-console.log("hi")
+
 
 
