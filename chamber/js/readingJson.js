@@ -10,7 +10,7 @@ const creating_companies_grid = (empresas) => {
 
     adress.textContent = empresas.address;
     cell_number.textContent = empresas.number;
-    web_site.innerHTML = empresas.web-site; 
+    web_site.innerHTML = empresas.web; 
 
     wrapper_info.appendChild(adress);
     wrapper_info.appendChild(cell_number);
@@ -27,7 +27,7 @@ fetch(requestURL)
     //console.table(jsonObject);  // temporary checking for valid response and data parsing
 
     const companies = jsonObject['companies']
-    //companies.forEach(creating_companies_grid)
+    companies.forEach(creating_companies_grid)
     companies.forEach(company => {
         console.log(company)
     });
