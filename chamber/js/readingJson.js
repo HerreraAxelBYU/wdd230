@@ -8,13 +8,17 @@ const creating_companies_grid = (empresas) => {
     const company_logo = document.createElement('img');
     const adress = document.createElement('p');
     const cell_number = document.createElement('p');
-    const web_site = document.createElement('p');
+    const web_site = document.createElement('a');
 
+    company_logo.setAttribute("src", empresas.logo)
+    web_site.setAttribute("href", empresas.web)
+    web_site.setAttribute("target", "_blank")
 
     adress.textContent = empresas.address;
     cell_number.textContent = empresas.number;
     web_site.innerHTML = empresas.web; 
 
+    wrapper_info.appendChild(company_logo);
     wrapper_info.appendChild(adress);
     wrapper_info.appendChild(cell_number);
     wrapper_info.appendChild(web_site);
