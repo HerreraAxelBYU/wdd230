@@ -72,8 +72,8 @@
     }
 
     .first_main {
-        width: 90%;
-        height: 75rem;
+        max-width: 90%;
+        max-height: 75rem;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(3,1fr);
@@ -228,13 +228,13 @@
 
     .imagenes_2 {
         margin: 0 auto;
-        width: 850px;
-        height: 600px;
+        max-width: 850px;
+        max-height: 600px;
         padding: 2rem;
     }
 
     .changingImage {
-        width: 100%;
+        max-width: 100%;
         height: 100%;
         box-shadow: 2px 12px 15px -7px rgba(0,0,0,0.75);
         transition: .3s;
