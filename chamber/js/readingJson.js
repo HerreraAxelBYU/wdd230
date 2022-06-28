@@ -5,6 +5,7 @@ const creating_companies_grid = (empresas) => {
     const wrapper_info = document.createElement('div');
     wrapper_info.classList.add('company__div')
 
+    const company_logo = document.createElement('img');
     const adress = document.createElement('p');
     const cell_number = document.createElement('p');
     const web_site = document.createElement('p');
