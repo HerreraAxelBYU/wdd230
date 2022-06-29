@@ -30,6 +30,7 @@ h1,h2,h3,h4,h5,h6,p {
 **/
 
 header {
+    max-width: 100%;
     background-color: var(--headerColor);
     
 }
@@ -521,6 +522,36 @@ footer p {
 *
 **/
 
+.companies__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    
+}
+
+.companies__buttons div {
+    width: 3.1rem;
+    height: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #314e99 ;
+    cursor: pointer;
+}
+
+.btn__grid img{
+    width: 1.8rem;
+    margin: 1rem;
+}
+
+.btn__list img {
+    width: 2.2rem;
+    height: 2.3rem;
+    margin: 1rem;
+}
+
 .companies__grid {
     width: 100%;
     padding: 1rem;
@@ -540,6 +571,24 @@ footer p {
     box-shadow: 0px 12px 15px -7px rgba(0,0,0,0.75);
 }
 
+/*
+.company__div:nth-child(even) {
+    background-color: beige;
+}
+*/
+
+.companies_list {
+    width: 100%;
+    height: 11rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+.companies_list:nth-child(even) {
+    background-color: beige;
+}
+
 .company__div p {
     text-align: center;
     padding: .4rem;
@@ -551,3 +600,8 @@ footer p {
     margin-top: .4rem;
     margin-bottom: .4rem;
 }
+
+.close {
+    display: none;
+}
+

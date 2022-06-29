@@ -244,6 +244,7 @@
         grid-template-columns: repeat(2 , 1fr);
         gap: 1.8rem;
         justify-items: center;
+        
     }
 
     .company__div {
@@ -270,6 +271,9 @@
         height: 4.5rem;
         margin-top: .4rem;
         margin-bottom: .4rem;
+    }
+    .companies_list:nth-child(even) {
+        background-color: #fff;
     }
 
    

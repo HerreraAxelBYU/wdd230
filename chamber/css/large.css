@@ -339,13 +339,44 @@
         gap: 2rem;
         justify-items: center;
         align-content: center;
+        
+    }
+
+    .companies__grid2 {
+        margin: 0 auto;
+        max-width: 100rem;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-items: center;
+        align-content: center;
+        
+    }
+
+    .companies_list {
+        max-width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+    }
+    .companies_list h3 {
+        font-size: 1.6rem;
+    }
+    .companies_list p, a {
+        font-size: 1.3rem;
+    }
+
+    .companies_list:nth-child(even) {
+        background-color: beige;
     }
 
     .company__div {
-        width: 370px;
-        height: 13rem;
+        width: 430px;
+        height: 14rem;
         display: flex;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         box-shadow: 0px 12px 15px -7px rgba(0,0,0,0.75);
@@ -366,5 +397,6 @@
         margin-top: .4rem;
         margin-bottom: .4rem;
     }
+
 }
 
