@@ -356,10 +356,17 @@
 
     .companies_list {
         max-width: 100%;
+        display: grid;
+        grid-template-columns: 10% 35% 10% 25%;
+        align-content: center;
+        
+        /*
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
+        */
+
         gap: 5rem;
     }
     .companies_list h3 {
