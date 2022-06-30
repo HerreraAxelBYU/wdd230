@@ -26,7 +26,7 @@ showBanner(banner);
 hamburger.onclick = toggleMenu;
 
 const showing_date = document.createElement('p');
-showing_date.innerHTML = `${current_date}`
+showing_date.innerHTML = `${current_date} `
 
 const showing_visits = document.createElement('p');
 const last_visited = document.createElement('p');
@@ -42,9 +42,9 @@ let numVisits = Number(window.localStorage.getItem("visits-ls"));
 
 // determine if this is the first visit or display the number of visits.
 if (numVisits !== 0) {
-	showing_visits.textContent = `Number of Visits: ${numVisits}`;
+	showing_visits.textContent = `|  Number of Visits: ${numVisits}`;
 } else {
-	showing_visits.textContent = `This is your first visit!`;
+	showing_visits.textContent = `|  This is your first visit!`;
 }
 numVisits++;
 // store the new number of visits value

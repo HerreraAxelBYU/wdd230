@@ -1,12 +1,17 @@
 :root {
-    --principalColor: #EDE6DB;
+    
+    --principalColor: #D5D5D5;
     --principalHover: #b9b4ac;
-    --headerColor: #417D7A;
+    --headerColor: #6D7993;
     --color1: #8cb8ff;
     --color2: #faeeff;
     --color3: #141a35;
     --color4: #77767c;
     --color5: #e2e2e2;
+    --dusty: #96858F;
+    --lavendar: #6D7993;
+    --overcast: #9099A2;
+    --paper: #D5D5D5;
     --font1:'Karla', sans-serif;
 }
 
@@ -32,7 +37,6 @@ h1,h2,h3,h4,h5,h6,p {
 header {
     max-width: 100%;
     background-color: var(--headerColor);
-    
 }
 
 header .header__logo__hamburger {
@@ -107,15 +111,13 @@ nav ul {
 nav ul li {
     transition-duration: .5s;
 }
-nav ul li:hover {
-    background-color: #141a35;
-}
+
 
 nav ul li a {
     display: block;
     padding: .8rem 2vw;
     text-decoration: none;
-    color: #000;
+    color: #fff;
     border-top: 1px solid rgba(255, 255, 255, 0.5);
 }
 
@@ -126,9 +128,12 @@ nav ul li a {
 .header__date {
     width: 80%;
     margin: 0 auto;
-    background-color: var(--color1);
     box-sizing: content-box;
     padding: 15px;
+}
+
+.header__date p {
+    color: #fff;
 }
 
 /**
