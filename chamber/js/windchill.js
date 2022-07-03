@@ -48,6 +48,7 @@ const windChillCelsius = (temperature, windSpeed) => {
 
 const icons = (weather, div) => {
     const icon = document.createElement('img');
+    icon.setAttribute('alt', 'weather widget');
     icon.classList.add('widget')
     let animatedIcon = '';
     
