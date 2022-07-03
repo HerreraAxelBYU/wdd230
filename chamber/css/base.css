@@ -68,8 +68,9 @@ header .hambuger {
 }
 
 .title {
-    font-size: .7rem;
-    color: #000;
+    font-size: .8rem;
+    font-weight: 700;
+    color: #fff;
 }
 
 /**
@@ -104,6 +105,9 @@ header .hambuger {
 
 .open {
     display: block;
+}
+.header__date p {
+    font-weight: 700;
 }
 
 
@@ -399,7 +403,7 @@ figure img{
     ==== FOOTER ====
 **/
 footer {
-    background-color: #314e99;
+    background-color: #6D7993;
     display: flex;
     flex-direction: column;
     align-items: center;
