@@ -188,7 +188,7 @@
     
     .names, .info {
         display: grid;
-        grid-template-columns: repeat(1,fr);
+        grid-template-columns: repeat(1, 1fr);
         margin-bottom: 1rem;
     }
     .names label, input,
