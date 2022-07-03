@@ -32,7 +32,7 @@
         "address": "Av. Caseros 3039, Piso 2, CP 1264, Parque Patricios, CABA",
         "web": "https://www.mercadolibre.com.ar/",
         "number": "0800-637-7246",
-        "logo": "https://herreraaxelbyu.github.io/wdd230/chamber/images/mercado-libre.png"
+        "logo": "https://herreraaxelbyu.github.io/wdd230/chamber/images/mercado-libre.webp"
     },
     {
         "name": "Don Satur",
@@ -67,14 +67,14 @@
         "address": "Av. Jujuy 2013 CABA, Arg",
         "web": "https://www.despegar.com.ar/",
         "number": "0800-800-1682",
-        "logo": "https://herreraaxelbyu.github.io/wdd230/chamber/images/despegar.png"
+        "logo": "https://herreraaxelbyu.github.io/wdd230/chamber/images/despegar.webp"
     },
     {
         "name": "Telecom",
         "address": "General Hornos 690 - Ciudad de Bs. As.",
         "web": "https://www.telecom.com.ar/",
         "number": "0800-888-0800",
-        "logo": "https://herreraaxelbyu.github.io/wdd230/chamber/images/telecom.png"
+        "logo": "https://herreraaxelbyu.github.io/wdd230/chamber/images/telecom.webp"
     }
 
 ]}
