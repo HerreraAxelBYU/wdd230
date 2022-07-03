@@ -49,14 +49,7 @@
     <section class="wrapper-mobile">
       <div class="mobile-card">
         <picture>
-          <img src="./images/Frente_del_Teatro_Col195179n_640.svg" alt="" srcset="">
-          
-
-          <!-- 
-          <source  srcset="./images/Frente_del_Teatro_Colón.jpg 320w ,
-                        ./images/Frente_del_Teatro_Colón_640.jpg 800w " 
-                        data-src="./images/Frente_del_Teatro_Colón.jpg" alt="">
-          -->
+          <img data-src="./images/Frente_del_Teatro_Col195179n_640.svg" alt="" srcset="">
         </picture>
         <h3>Colon Theather</h3>
         <p>The Colon Theater is one of the most important opera houses of the
@@ -68,10 +61,7 @@
       </div>
       <div class="mobile-card">
         <picture>
-          <img src="./images/Casarosada640.svg" alt="">
-          <!--
-          <img srcset="./images/Casarosada.jpg 320w,
-                       ./images/Casarosada640.jpg 800w" data-src="./images/Casarosada.jpg" alt="">-->
+          <img data-src="./images/Casarosada640.svg" alt="">
         </picture>
         <h3>Casa Rosada</h3>
         <p>The Casa Rosada is the seat of the Executive Power of the
@@ -80,11 +70,7 @@
       </div>
       <div class="mobile-card">
         <picture>
-          <img src="./images/bosques-de-palermo.svg" alt="">
-          <!--
-            <img data-src="./images/640px-RosedalBuenosAires.jpg" alt="">
-          -->
-          
+          <img data-src="./images/bosques-de-palermo.svg" alt="">
         </picture>
         <h3>Rosedal de Palermo</h3>
         <p>The huge Tres de Febrero Park, also known as Los bosques de
@@ -100,7 +86,7 @@
       </div>
       <div class="mobile-card">
         <picture>
-          <img src="./images/tango_argentina.webp" alt="">
+          <img data-src="./images/tango_argentina.webp" alt="">
         </picture>
         <h3>Tango</h3>
         <p>Tango is one of the most famous and influential dances in the
@@ -193,25 +179,7 @@
 
     <!-- *********** J A V A S C R I P T  C O D E *********** -->
     <script src="./js/app.js"></script>
-    <script>
-      /** CAMBIAR IMAGENES  **/
-    const picture_1 = document.querySelector(".changingImage");
-
-    const changeImage = () => {
-        picture_1.setAttribute("src",'images/teatro_colon_interior_nicolas1500x610.webp');
-      };
-    const changeImage2 = () => {
-        picture_1.setAttribute("src",'images/casarosada.webp');
-      };
-    const changeImage3 = () => {
-        picture_1.setAttribute("src",'images/bosques-de-palermo.webp');
-      };
-    const changeImage4 = () => {
-        picture_1.setAttribute("src",'images/poblacion_Argentina.webp');
-      };
-    const changeImage5 = () => {
-        picture_1.setAttribute("src",'images/tango_argentina.webp');
-      };
-    </script>
+    <script src="./js/lazyloading.js"></script>
+  
   </body>
 </html>
