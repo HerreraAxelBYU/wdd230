@@ -227,9 +227,8 @@
     /* ===== F O O T E R ===== */
     footer {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        align-items: center;
-        justify-content: center;
+        grid-template-columns: repeat(3, 1fr);
+        background-color: #6D7993;
     }
 
     footer .footer__img {
@@ -237,12 +236,21 @@
         justify-content: center;
         align-items: center;
     }
+    footer .footer__img img {
+        width: auto;
+        height: 100px;
+    }
     footer .footer__para__info {
+        grid-column: 3/4;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         border:  none;
+    }
+    footer .footer__project {
+        grid-column: 2/3;
+        grid-row: 1/2;
     }
 
     /** ========= SECOND PAGE - DISCOVER !!! ========== **/
@@ -498,8 +506,9 @@
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
         align-content: center;
-        margin: 4rem auto;
-        gap: 5rem;
+        margin: 3rem auto;
+        gap: 4rem;
+
        
     }
     
