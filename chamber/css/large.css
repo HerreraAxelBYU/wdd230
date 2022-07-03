@@ -334,17 +334,24 @@
     **/
 
     .join-grid {
-        width: 90%;
+        max-width: 1240px;
+        height: auto;
         margin: 2rem auto;
         display: grid;
         grid-template-columns: repeat(2 , 1fr);
-        border: 1px solid black;
+        gap: 2rem;
     }
 
     .formulario legend {
         padding: .5rem;
         text-align: center;
         font-size: 1.5rem;
+        color: #b35454;
+    }
+    .formulario label{
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: #b35454;
     }
 
     .names, .info {
@@ -365,6 +372,10 @@
     fieldset section {
         margin: 1rem;
         padding: 1rem;
+    }
+
+    #phone {
+        grid-row: 4/5;
     }
 
     .form2 {
@@ -388,12 +399,50 @@
         height: 100%;
     }
 
-    #vip div {
-        height: 270px;
+    .vip div {
+        background-color: #b35454;
+        height: 300px;
         padding: 1rem;
+    }
+    .vip div h3,
+    .vip div li {
+        color: #ffffff;
     }
     #vip ul li {
         margin: 1rem;
+    }
+    .button_suscribe {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .subscribe {
+        width: 200px;
+        padding: 1rem 0;
+        background-color: #B35454;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+        font-weight: bolder;
+        transition: .3s;
+    }
+    .subscribe:hover {
+        background-color: var(--opacity);
+    }
+
+    #non_profit {
+        max-height: 180px;
+    }
+    #bronze {
+        max-height: 200px;
+    }
+
+    #gold {
+        height: 350px;
     }
 
     /**

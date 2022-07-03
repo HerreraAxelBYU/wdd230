@@ -510,6 +510,19 @@ footer p {
     grid-template-columns: repeat(1, 1fr);
     margin-bottom: 1rem;
 }
+
+.formulario legend {
+    padding: .5rem;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #b35454;
+}
+
+.formulario label{
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #b35454;
+}
 .names label, input,
 .info label, input,
 .form2 label, input {
@@ -547,6 +560,25 @@ footer p {
     display: none;
 }
 
+.button_suscribe {
+        width: 100%;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .subscribe {
+        width: 200px;
+        padding: 1rem 0;
+        background-color: #B35454;
+        color: #ffffff;
+        cursor: pointer;
+        border: none;
+        font-weight: bolder;
+        transition: .3s;
+    }
 
 /**
 *
