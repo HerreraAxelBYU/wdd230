@@ -14,9 +14,10 @@ const creating_companies_grid = (empresas) => {
     const cell_number = document.createElement('p');
     const web_site = document.createElement('a');
 
-    company_logo.setAttribute("src", empresas.logo)
-    web_site.setAttribute("href", empresas.web)
-    web_site.setAttribute("target", "_blank")
+    company_logo.setAttribute("src", empresas.logo);
+    company_logo.setAttribute("alt", "Company who works with Buenos Aires Chamber of Commerce");
+    web_site.setAttribute("href", empresas.web);
+    web_site.setAttribute("target", "_blank");
 
     adress.textContent = empresas.address;
     cell_number.textContent = empresas.number;
