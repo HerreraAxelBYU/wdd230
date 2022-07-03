@@ -19,6 +19,9 @@ function showBanner(banner) {
     if (day === 1 || day === 2) {
         banner.textContent = "Come join us for the chamber meet and greet Wednesday at 7:00 p.m."
     }
+    else {
+        banner.textContent = ''
+    }
 }
 
 showBanner(banner);
@@ -49,9 +52,6 @@ if (numVisits !== 0) {
 numVisits++;
 // store the new number of visits value
 localStorage.setItem("visits-ls", numVisits);
-
-// show todays date.
-todayDisplay.textContent = Date.now();
 
 
 const images = document.querySelectorAll('[data-src]');

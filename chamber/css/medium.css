@@ -5,8 +5,8 @@
     }
 
     header .header__logo img {
-        width: 200px;
-        height: 200px;
+        height: 100px;
+        width: 100px;
     }
 
     p {

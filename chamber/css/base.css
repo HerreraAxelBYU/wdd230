@@ -227,6 +227,7 @@ figure img{
 /* === EVENT === */
 .event {
     background: var(--principalColor);
+    height: 220px;
     display: flex;
     flex-direction: column;
     align-items: center;
