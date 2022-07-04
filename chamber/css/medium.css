@@ -31,8 +31,14 @@
         color: var(--color2);
     }
 
+    header .header__logo img {
+        width: 110px;
+        height: 110px;
+    }
+
     .icons{
-        height: 1.8rem;
+        width: 2rem;
+        height: 2rem;
         margin: -10px;
     }
 

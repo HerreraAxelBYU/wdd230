@@ -92,6 +92,10 @@ header .hambuger {
     background-color: transparent;
     text-decoration: none;
 }
+
+.hambuger {
+    color: #ffffff;
+}
 .icons{
     height: 1.5rem;
 }
