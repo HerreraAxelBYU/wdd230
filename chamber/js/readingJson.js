@@ -48,7 +48,8 @@ const creating_companies_list = (empresas) => {
   company_name.textContent = empresas.name
   adress.textContent = empresas.address;
   cell_number.textContent = empresas.number;
-  web_site.innerHTML = empresas.web; 
+  web_site.innerHTML = empresas.web;
+  wrapper_info_list.classList.add('div_list');
 
   wrapper_info_list.appendChild(company_name);
   wrapper_info_list.appendChild(adress);

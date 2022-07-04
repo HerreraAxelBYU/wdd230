@@ -26,7 +26,8 @@ function showBanner(banner) {
 
 showBanner(banner);
 
-hamburger.onclick = toggleMenu;
+//hamburger.onclick = toggleMenu;
+hamburger.addEventListener("click", toggleMenu)
 
 const showing_date = document.createElement('p');
 showing_date.innerHTML = `${current_date} `
