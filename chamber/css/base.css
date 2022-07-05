@@ -428,6 +428,7 @@ footer div {
 
 footer img{
     width: 70px;
+    height: 70px;
 }
 .footer__project span {
     display: none;
@@ -621,6 +622,7 @@ footer p {
 
 .btn__grid img{
     width: 1.8rem;
+    height: 1.8rem;
     margin: 1rem;
 }
 
