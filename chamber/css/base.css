@@ -225,7 +225,7 @@ figure img{
     color: #fff;
     border: none;
     border-radius: 1rem;
-    transform: .3s;
+    transition: .3s;
 } 
 .hero__content button:hover {
     background-color: var(--color1);
