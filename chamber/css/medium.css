@@ -162,8 +162,8 @@
         grid-template-columns: repeat(2 , 1fr);
     }
     footer img {
-        height: 200px;
-        width: 200px;
+        height: 110px;
+        width: 110px;
     }
 
     .footer__project span {

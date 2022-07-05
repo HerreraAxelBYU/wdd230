@@ -733,7 +733,10 @@ footer p {
     display:block;
     margin:28px 0 0;
     font-size:14px;
-    color:#5a5a5a
+    color:#B35454;
+}
+.contact__form label {
+    color: #B35454;
 }
 .contact__form button{
     float:right;
