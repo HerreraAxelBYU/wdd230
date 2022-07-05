@@ -8,7 +8,7 @@
         font-size: 1.2rem;
     }
     
-    header .header__logo img {
+    .header__logo img {
         height: 110px;
         width: 110px;
     }
