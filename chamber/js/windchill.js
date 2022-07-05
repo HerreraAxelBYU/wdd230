@@ -29,6 +29,7 @@ const showWeather = (info) => {
 
     temperature.innerHTML = `${temperature_celsius} &#8451`
     temperature.style.textAlign = 'center';
+    temperature.style.fontSize = '1.3rem'
     weather_like.innerHTML = description.description;
     weather_like.style.textAlign = 'center';
     wind.innerHTML = `${wind_speed} Km/h`;
