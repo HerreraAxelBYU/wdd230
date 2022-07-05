@@ -99,6 +99,12 @@ header .hambuger {
 .header__hamburger .icons{
     height: 1.4rem;
 }
+
+.icons {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
 .icons:hover {
     transform: scale(1.2);
 }
