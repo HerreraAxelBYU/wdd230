@@ -1,5 +1,8 @@
 @media only screen and (min-width: 64em){
-
+    
+    .hamburguer{
+        display: none;
+    }
 
     .general__header {
         background: var(--color1);
@@ -14,7 +17,7 @@
         
     }
 
-    .general__header div img {
+    .general__header .logo img {
         width: 250px;
         height: 250px;
     } 

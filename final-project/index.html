@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arapey&display=swap" rel="stylesheet">
 
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/medium.css">
     <link rel="stylesheet" href="./css/large.css">
@@ -17,21 +15,38 @@
 </head>
 <body>
     <header class="general__header">
-        <div class="logo">
+        <picture class="logo">
+            <source class="logo-mobile" media="(max-width: 700px" srcset="./images/templeinnlogomobile.png">
             <img src="./images/templeinnlogo.png" alt="temple inn and suites logo ">
+        </picture>
+        <div class="hamburguer">
+            <button class="hambuger" id="hamburger-button"><span>&#9776;</span><span></span></button>
         </div>
-        <nav class="small stroke">
+        <nav class="small stroke" id="menu_mobile">
             <ul id="small_menu">
-                <li><a href="./index.html"><ion-icon name="home-outline"></ion-icon>Home</a></li>
-                <li><a href="">Temples</a></li>
-                <li class="active"><a href="">Directory</a></li>
-                <li><a href="">Join</a></li>
-                <li><a href="">Contact</a></li>
+                <li><a href="./index.html" class="active_link">Home</a></li>
+                <li><a href="">Temple</a></li>
+                <li><a href="">Reservation</a></li>
+                <li><a href="">Services</a></li>
             </ul>
+
+            <div class="navbar_icons">
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-facebook-circle'></i></a>
+
+            </div>
         </nav>
     </header>
     <section class="portada">
-        <img src="./images/templo1_1920.webp" alt="Temple">
+        <picture>
+            <source media="(max-width: 700px)" srcset="./images/templo1_640.webp">
+            <img src="./images/templo1_1920.webp" alt="Temple">
+        </picture>
+        
     </section>
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
