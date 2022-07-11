@@ -1,0 +1,80 @@
+@media only screen and (min-width: 64em){
+
+
+    .general__header {
+        background: var(--color1);
+        max-width: 100%;
+        max-height: 170px;
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        grid-template-columns: repeat(1 ,1fr);
+        grid-template-rows: 60% 40%;
+        box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.38);
+        
+    }
+
+    .general__header div img {
+        width: 250px;
+        height: 250px;
+    } 
+
+    /* NAVIGATION */
+    .small_menu {
+        display: flex;
+    }
+
+    nav {
+        max-width: 80%;
+        height: 80px;
+        margin: 0 auto;
+    }
+    nav ul li {
+        display: inline-block;
+    }
+    nav ul li a {
+        display: block;
+        font-size: 1.3rem;
+        padding: 15px;
+        text-decoration: none;
+        color: var(--color3);
+        margin: 0 10px;
+        border: none;
+    }
+    nav ul li a,
+    nav ul li a:after,
+    nav ul li a:before {
+        transition: all .5s;
+    }
+    nav ul li a:hover {
+        color: #406AC6;
+    }
+    
+    /* stroke */
+    nav.stroke ul li a {
+        position: relative;
+    }
+    nav.stroke ul li a:after{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 0%;
+        content: '.';
+        color: transparent;
+        background: #aaa;
+        height: 1px;
+    }
+    nav.stroke ul li a:hover:after {
+        width: 70%;
+    }
+
+    /* IMAGEN PRINCIPAL*/
+
+    .portada img {
+        width: 100%;
+    }
+
+
+}
