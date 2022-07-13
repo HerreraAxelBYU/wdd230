@@ -28,7 +28,7 @@
     nav {
         display: flex;
         justify-content: center;
-        width: 80%;
+        width: 90%;
         height: 30%;
         margin-bottom: 1.5rem;
         
@@ -38,8 +38,8 @@
     }
     nav ul li a {
         display: block;
-        font-size: 1.2rem;
-        padding: 15px;
+        font-size: 1.4rem;
+        padding: 13px;
         text-decoration: none;
         color: var(--color3);
         margin: 0 10px;
@@ -51,7 +51,7 @@
         transition: all .5s;
     }
     nav ul li a:hover {
-        color: #b35454;
+        color: #406AC6;
     }
     
     /* stroke */
@@ -67,7 +67,7 @@
         width: 0%;
         content: '.';
         color: transparent;
-        background: #aaa;
+        background: #406AC6;
         height: 1px;
     }
     nav.stroke ul li a:hover:after {
@@ -104,5 +104,37 @@
         color: #fff;
         font-size: 1.2rem;
         padding: 0.5rem;
+    }
+    .sign_reservation {
+        width: 70%;
+        height: 180px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        align-content: center;
+    }
+
+    .sign_reservation h2 {
+        font-size: 2.5rem;
+        font-weight: lighter;
+    }
+    .sign_reservation button {
+        background: #406AC6;
+        width: 220px;
+        padding: 1.1rem;
+        font-weight: 900;
+        text-transform: uppercase;
+        color: #fff;
+        border: none;
+        outline: transparent;
+        transition: .4s;
+    }
+
+    .sign_reservation button:hover {
+        color: #406AC6;
+        background: #fff;
+        border: 1px solid #406AC6;
+        border-radius: .4rem;
     }
 }
