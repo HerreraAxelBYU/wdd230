@@ -1,0 +1,64 @@
+{"temples": [
+    {   
+        "name": "Buenos Aires Argentina Temple",
+        "adress": "Aut. Tte. Gral. Riccheri N° 4955B1778DUA Ciudad Evita Buenos Aires, Argentina,",
+        "telephone": "(54) 11-4693-9700",
+        "email": "",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": ["2 April 1980 - Announced", "20 April 1983 - Groundbreaking", "17 January 1986 - Dedicated", "9 September 2012 - Rededicated"],
+        "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "session": "",
+        "temple_closure_2022": ["Saturday, 1 October 2022", "Monday, 3 October 2022 - Monday, 17 October 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
+        "temple_closure_2023": ["Saturday, 1 April 2023", "Saturday, 7 October 2023", "Monday, 9 October 2023 - Monday, 23 October 2023"]
+    },
+    {
+        "name": "Rio de Janeiro Brazil Temple",
+        "adress": "Avenida Das Américas, Nº 9005 CEP 22793-083 Barra Da Tijuca - Rio De Janeiro - RJ Brazil",
+        "telephone": "(55) 21-3906-4600",
+        "email": "",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": ["6 April 2013 - Announced", "4 March 2017 - Groundbreaking", "8 May 2022 - Dedicated "],
+        "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "session": "",
+        "temple_closure_2022": "Doesn't have temple closure",
+        "temple_closure_2023": "Doesn't have temple closure"
+    },
+    {
+        "name": "Draper Utah Temple",
+        "adress": "14065 Canyon Vista Ln Draper UT 84020-5626 United States",
+        "telephone": "(1) 801-576-4240",
+        "email": "",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": ["2 October 2004 - Announced", "5 August 2006 - Groundbreaking", "20 March 2009 - Dedicated"],
+        "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "session": "",
+        "temple_closure_2022": ["Monday, 29 August 2022 - Monday, 12 September 2022", "aturday, 1 October 2022", "ednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
+        "temple_closure_2023": ["Monday, 23 January 2023 - Monday, 6 February 2023", "Monday, 24 July 2023 - Monday, 7 August 2023"]
+    },
+    {
+        "name": "Rome Italy Temple",
+        "adress": "Via di Settebagni 376 Rome RM Italy",
+        "telephone": "(39) 06-9480-5050",
+        "email": "",
+        "services": ["Clothing rental available", "No cafeteria available", "Patron housing available", "Distribution center nearby"],
+        "history": ["4 October 2008 - Announced", "23 October 2010 - Groundbreaking", "10 March 2019 - Dedicated"],
+        "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
+        "session": "",
+        "temple_closure_2022": ["Monday, 19 September 2022 - Monday, 3 October 2022", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
+        "temple_closure_2023": ["Monday, 20 March 2023 - Monday, 3 April 2023","Thursday, 29 June 2023","Monday, 18 September 2023 - Monday, 2 October 2023","Sunday, 24 December 2023 - Tuesday, 26 December 2023"]
+    },
+    {
+        "name": "",
+        "adress": "",
+        "telephone": "",
+        "email": "",
+        "services": "",
+        "history": "",
+        "ordinance": "",
+        "session": "",
+        "temple_closure_2022": "",
+        "temple_closure_2023": ""
+    }
+]
+
+}
