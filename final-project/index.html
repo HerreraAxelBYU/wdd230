@@ -15,6 +15,8 @@
     <title>Home</title>
 </head>
 <body>
+
+    <!-- H E A D E R -->
     <header class="general__header">
         <picture class="logo">
             <source class="logo-mobile" media="(max-width: 700px" srcset="./images/templeinnlogomobile.png">
@@ -33,12 +35,14 @@
 
             <div class="navbar_icons">
                 <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-                <a href="" class="home__social-icon"><i class='bx bxl-github'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
                 <a href="" class="home__social-icon"><i class='bx bxl-facebook-circle'></i></a>
 
             </div>
         </nav>
-    </header>
+    </header> <!-- H E A D E R -->
+
+    <!-- P O R T A D A -->
     <section class="portada">
         <picture>
             <source media="(max-width: 700px)" srcset="./images/templo1_640.webp">
@@ -46,14 +50,29 @@
         </picture>
         <h1 class="portada__h1">Welcome to Temple Inn & Suites</h1>
         <p class="portada__p">Sometimes the most productive thing you can do is rest.</p>
-    </section>
+    </section> <!-- P O R T A D A -->
 
+    <!-- R E S E R V A T I O N   I N V  -->
     <section class="sign_reservation">
         <h2>Make your Reservation Today!</h2>
         <button>Make Reservation</button>
-    </section>
+    </section> <!-- R E S E R V A T I O N   I N V  -->
 
+    <main class="home__main">
+        <div class="weather"> <!-- C A R D -->
+            <div class="weather__widget"></div>
+            <div class="weather__description">
+                <p id="temperature"></p>
+                <p id="description"></p>
+                <p id="wind"></p>
+            </div>
+        </div> <!-- W E A T H E R  W I D G E T -->
+    </main>
+    <!-- W E A T H E R  W I D G E T -->
+    
 
     <script src="./js/script.js"></script>
+    <script src="./js/weather.js"></script>
+    <script src="./js/temples.js"></script>
 </body>
 </html>
