@@ -119,4 +119,27 @@
         background-color: #406AC6;
     }
 
+    .portada {
+        display: flex;
+        justify-content: center;
+        position: relative;
+    }
+
+    .portada__h1 {
+        position: absolute;
+        top: 20%;
+        font-size: 1.3rem;
+        background-color: rgba(0,0,0,0.50);
+        color: #fff;
+        padding: .3rem;
+    }
+    .portada__p {
+        position: absolute;
+        top: 60%;
+        font-size: 1rem;
+        background-color: rgba(0,0,0,0.50);
+        color: #fff;
+        padding: .2rem;
+    }
+
 }
