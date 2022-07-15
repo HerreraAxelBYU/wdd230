@@ -28,18 +28,35 @@ fetch(temples_url)
     const h2 = document.createElement('h2');
     const p1 = document.createElement('p');
     const p2 = document.createElement('p');
-    const p3 = document.createElement('p');
+    const h3 = document.createElement('h3')
     
+    const service_list = document.createElement('ul');
+
     h2.textContent = bs_name;
     p1.textContent = bs_adress;
     p2.textContent = bs_telephone;
-    p3.textContent = bs_service;
+    h3.textContent = "Servicios:"
 
-    home_section.appendChild(h2)
-    home_temple.setAttribute("src", bs_image)
-    home_section.appendChild(p1)
-    home_section.appendChild(p2)
-    home_section.appendChild(p3)
+    bs_service.forEach(servicio => {
+      const li = document.createElement('li');
+      li.textContent = servicio;
+      service_list.appendChild(li)
+    });
+
+    home_section.appendChild(h2);
+    home_temple.setAttribute("src", bs_image);
+    home_section.appendChild(p1);
+    home_section.appendChild(p2);
+    home_section.appendChild(h3);
+    home_section.appendChild(service_list);
+    
+
+    
+
+    
+
+    
+    
   
     if (screen.width <= 1024) {
       home_temple.setAttribute("src", bs_image_small)

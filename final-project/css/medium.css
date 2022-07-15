@@ -210,9 +210,15 @@
         color: var(--color5);
     }
 
-    .home_section h2, .home_section p {
+    .home_section h2,
+    .home_section p,
+    .home_section h3,
+    .home_section li  {
         text-align: center;
-        margin: .7rem;
+        padding: .5rem;
+    }
+    .home_section li {
+        list-style: none;
     }
     .home_section p {
         font-size: 1.1rem;
