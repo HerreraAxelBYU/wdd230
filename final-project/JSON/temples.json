@@ -9,7 +9,12 @@
         "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "session": "",
         "temple_closure_2022": ["Saturday, 1 October 2022", "Monday, 3 October 2022 - Monday, 17 October 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
-        "temple_closure_2023": ["Saturday, 1 April 2023", "Saturday, 7 October 2023", "Monday, 9 October 2023 - Monday, 23 October 2023"]
+        "temple_closure_2023": ["Saturday, 1 April 2023", "Saturday, 7 October 2023", "Monday, 9 October 2023 - Monday, 23 October 2023"],
+        "day_medium_image": "./images/buenosaires_temple_medium.jpg",
+        "day_small_image": "./images/buenosaires_temple_small.jpg",
+        "night_medium_img": "./images/buenosaires_temple_night_medium.jpg",
+        "night_small_img": "./images/buenosaires_temple_night_small.jpg"
+
     },
     {
         "name": "Rio de Janeiro Brazil Temple",
@@ -21,7 +26,11 @@
         "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "session": "",
         "temple_closure_2022": "Doesn't have temple closure",
-        "temple_closure_2023": "Doesn't have temple closure"
+        "temple_closure_2023": "Doesn't have temple closure",
+        "day_medium_image": "./images/rio_temple_medium.jpeg",
+        "day_small_image": "./images/rio_temple_small.jpeg",
+        "night_medium_img": "./images/rio_temple_night_medium.jpeg",
+        "night_small_img": "./images/rio_temple_night_small.jpeg"
     },
     {
         "name": "Draper Utah Temple",
@@ -33,7 +42,11 @@
         "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "session": "",
         "temple_closure_2022": ["Monday, 29 August 2022 - Monday, 12 September 2022", "aturday, 1 October 2022", "ednesday, 23 November 2022 (Limited Operations)", "Thursday, 24 November 2022", "Saturday, 24 December 2022", "Saturday, 31 December 2022"],
-        "temple_closure_2023": ["Monday, 23 January 2023 - Monday, 6 February 2023", "Monday, 24 July 2023 - Monday, 7 August 2023"]
+        "temple_closure_2023": ["Monday, 23 January 2023 - Monday, 6 February 2023", "Monday, 24 July 2023 - Monday, 7 August 2023"],
+        "day_medium_image": "./images/draper_temple_medium.jpg",
+        "day_small_image": "./images/draper_temple_small.jpg",
+        "night_medium_img": "./images/draper_temple_night_medium.jpg",
+        "night_small_img": "./images/draper_temple_night_small.jpg"
     },
     {
         "name": "Rome Italy Temple",
@@ -45,7 +58,11 @@
         "ordinance": "Ordinances for family names must be done in proper sequence—baptism, confirmation, Melchizedek Priesthood ordination (males), initiatory, endowment, and then sealing. Please allow sufficient time to perform all the ordinances you wish to complete during your visit. For additional help and information, please call the temple.",
         "session": "",
         "temple_closure_2022": ["Monday, 19 September 2022 - Monday, 3 October 2022", "Saturday, 24 December 2022 - Monday, 26 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
-        "temple_closure_2023": ["Monday, 20 March 2023 - Monday, 3 April 2023","Thursday, 29 June 2023","Monday, 18 September 2023 - Monday, 2 October 2023","Sunday, 24 December 2023 - Tuesday, 26 December 2023"]
+        "temple_closure_2023": ["Monday, 20 March 2023 - Monday, 3 April 2023","Thursday, 29 June 2023","Monday, 18 September 2023 - Monday, 2 October 2023","Sunday, 24 December 2023 - Tuesday, 26 December 2023"],
+        "day_medium_image": "./images/italy_temple_medium.jpg",
+        "day_small_image": "./images/italy_temple_small.jpg",
+        "night_medium_img": "./images/italy_temple_night_medium.jpg",
+        "night_small_img": "./images/italy_temple_night_small.jpg"
     },
     {
         "name": "",
