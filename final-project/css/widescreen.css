@@ -194,4 +194,9 @@
         width: 18rem;
     }
 
+    .bs_temple {
+        display: block;
+        width: 100%;
+    }
+
 }

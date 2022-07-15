@@ -10,7 +10,7 @@
         "session": "",
         "temple_closure_2022": ["Saturday, 1 October 2022", "Monday, 3 October 2022 - Monday, 17 October 2022", "Saturday, 24 December 2022 - Sunday, 25 December 2022", "Saturday, 31 December 2022 - Sunday, 1 January 2023"],
         "temple_closure_2023": ["Saturday, 1 April 2023", "Saturday, 7 October 2023", "Monday, 9 October 2023 - Monday, 23 October 2023"],
-        "day_medium_image": "./images/buenosaires_temple_medium.jpg",
+        "day_medium_image": "https://raw.githubusercontent.com/HerreraAxelBYU/wdd230/main/final-project/JSON/images/buenosaires_temple_medium.jpg",
         "day_small_image": "./images/buenosaires_temple_small.jpg",
         "night_medium_img": "./images/buenosaires_temple_night_medium.jpg",
         "night_small_img": "./images/buenosaires_temple_night_small.jpg"
