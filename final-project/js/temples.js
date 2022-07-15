@@ -23,7 +23,7 @@ fetch(temples_url)
     bs_closure_2023 = buenos_aires_temple.temple_closure_2023
     bs_image = buenos_aires_temple.day_medium_image
 
-    home_temple.setAttribute("src", "bs_image")
+    home_temple.setAttribute("src", bs_image)
 
     // Rio de Janeiro Temple Variables
     rioDeJaineiro = temples[1]
