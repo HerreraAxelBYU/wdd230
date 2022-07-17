@@ -8,8 +8,8 @@ const section1 = document.querySelector('#first_section');
 const section2 = document.querySelector('#second_section');
 const section3 = document.querySelector('#third_section');
 const section4 = document.querySelector('#fourth_section');
-const button1 = document.querySelector('.button1');
-const button2 = document.querySelector('.button2');
+const button1 = document.querySelector('#button1');
+const button2 = document.querySelector('#button2');
 
 
 fetch(temples_url)
@@ -24,17 +24,36 @@ fetch(temples_url)
     italy_temple(temples);
     drapper_temple(temples);
 
-    button2.addEventListener('onclick', () => {
-
-        section1.classList.add('close');
-        section2.classList.add('close');
-        section3.classList.remove('close');
-        section4.classList.remove('close')
-    })
+    
     
     bs_temple(temples);
     rio_janeiro_temple(temples);
 });
+
+button2.addEventListener('click', boton2);
+button1.addEventListener('click', boton1);
+
+function boton1(){
+  section2.classList.remove('fade');
+  section1.classList.remove('fade');
+  section2.classList.remove('close');
+  section1.classList.remove('close');
+  section4.classList.add('close');
+  section3.classList.add('close');
+
+        
+}
+
+function boton2() {
+  section1.classList.add('fade')
+  section2.classList.add('fade')
+  section1.classList.add('close');
+  section2.classList.add('close');
+  section3.classList.remove('close');
+  section4.classList.remove('close');
+
+  console.log("funciona")
+}
 
 // ITALY TEMPLE FUNCTION
 const italy_temple = (json) => {
