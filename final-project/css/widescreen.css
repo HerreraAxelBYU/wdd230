@@ -353,4 +353,61 @@
         opacity: 0;
     }
 
+
+    /*
+    
+    =========== THIRD PAGE ==============
+    
+    */
+
+
+    .reservation_container {
+        background-color: #fff;
+        max-width: 60%;
+        height: 350px;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin: 7rem auto;
+    }
+
+    .room_image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .room_image img {
+        width: 140%;
+        margin: 0 auto;
+    }
+
+    .reservation_form {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location_div,
+    .date_div,
+    .room_div,
+    .email_div,
+    .number_div,
+    .country_div {
+        max-width: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .reservation_form input,
+    .reservation_form select {
+        max-width: 130px;
+        height: 35px;
+        margin: 2rem;
+    }
+
+    .reservation_form option {
+        max-width: 120px;
+    }
+
+
 }

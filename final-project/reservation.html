@@ -13,6 +13,12 @@
 
 
     <title>Temples</title>
+
+    <style>
+        body{
+            background: #e7b45d;
+        }
+    </style>
 </head>
 <body>
     <header class="general__header">
@@ -40,5 +46,64 @@
         </nav>
     </header>
 
+    <div class="reservation_container">
+        <div class="room_image">
+            <img src="./images/room.svg" alt="room hotel">
+        </div>
+
+        <form action="" class="reservation_form">
+
+            <div class="location_div">
+                <label for="location">Location</label>
+                <select class="" id="location" name="location">
+                <option value="">Select</option>
+                <option value="buenos_aires">Buenos Aires, Argentina</option>
+                <option value="rome">Rome, Italy</option>
+                <option value="drapper">Drapper, USA</option>
+                <option value="rio">Rio de Janeiro, Brasil</option>
+            </select>
+            </div>
+            
+            <div class="date_div">
+                <label for="date">Date</label>
+                <input type="date" id="date" name="date">
+            </div>
+            
+            <div class="room_div">
+                <label for="room">Room</label>
+                <select class="" id="room" name="room">
+                    <option value="">Select</option>
+                    <option value="single_room">Single room</option>
+                    <option value="double_room">Double room</option>
+                    <option value="triple_room">Triple room</option>
+                    <option value="quad_room">Quad room</option>
+                    <option value="deluxe_room">Deluxe room</option>
+                    <option value="conect_room">Connecting room</option>
+                    <option value="suite">Suite</option>
+                </select>
+            </div>
+
+            <div class="email_div">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            
+            <div class="number_div">
+                <label for="number">Telephone Number</label>
+                <input type="number" id="number" name="number">
+            </div>
+            
+            <div class="country_div">
+                <label for="country">Country</label>
+                <select name="country" id="country">
+                    <option value="">Select</option>
+                </select>
+            </div>
+            
+        </form>
+    </div>
+
+
+    <script src="./js/reservation.js"></script>
     <script src="./js/script.js"></script>
 </body>
