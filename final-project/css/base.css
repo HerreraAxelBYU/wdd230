@@ -452,7 +452,8 @@
 
     .reservation_form input,
     .reservation_form select {
-        max-width: 180px;
+        width: 180px;
+        max-width: 200px;
         height: 35px;
         margin: 0 1rem;
     }
@@ -461,12 +462,8 @@
         max-width: 120px;
     }
 
-    .comments_div {
-        
-    }
-
     .button_div {
-        width: 80%;
+        width: 100%;
         display: flex;
         justify-content: center;
         margin-top: 3rem;
@@ -475,7 +472,7 @@
 
     .button_div button {
         background: #e7b45d;
-        width: 120px;
+        width: 140px;
         height: 40px;
         font-size: 1rem;
         font-weight: 700;
