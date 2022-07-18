@@ -362,18 +362,23 @@
 
 
     .reservation_container {
+        position: static;
         background-color: #fff;
         max-width: 60%;
-        height: 500px;
+        height: 520px;
         display: grid;
         grid-template-columns: 30% 70%;
         margin: 7rem auto;
+        padding: 0;
+        border-radius: 1rem;
     }
 
     .room_image {
+        position: static;
         display: flex;
         justify-content: center;
         align-items: center;
+        grid-column: 1/2;
         width: 100%;
     }
     .room_image img {
@@ -401,6 +406,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin: 0;
     }
     .name_div label ,
     .location_div label ,

@@ -375,6 +375,126 @@
         opacity: 0;
     }
 
+
+
+/*
+    
+    =========== THIRD PAGE ==============
+    
+
+*/ 
+
+    .reservation_container {
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        max-width: 100%;
+        height: 970px;
+        padding: 3rem;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin: 10rem auto;
+        border-radius: 1rem;
+    }
+
+    .room_image {
+        position: absolute;
+        top: -120px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .room_image img {
+        width: 250px;
+    }
+
+    .reservation_form {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+    .name_div,
+    .location_div,
+    .date_div,
+    .room_div,
+    .email_div,
+    .number_div,
+    .country_div {
+        max-width: 100%;
+        height: 50px;
+        margin-top: 2rem;
+        display: flex;
+    }
+
+    .name_div {
+        margin-top: 4rem;
+    }
+
+    .name_div label ,
+    .location_div label ,
+    .date_div label ,
+    .room_div label ,
+    .email_div label ,
+    .number_div label ,
+    .country_div label {
+        width: 120px;
+        max-width: 120px;
+    }
+
+    .comments_div {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+    }
+
+    .reservation_form input,
+    .reservation_form select {
+        max-width: 180px;
+        height: 35px;
+        margin: 0 1rem;
+    }
+
+    .reservation_form option {
+        max-width: 120px;
+    }
+
+    .comments_div {
+        
+    }
+
+    .button_div {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        margin-top: 3rem;
+
+    }
+
+    .button_div button {
+        background: #e7b45d;
+        width: 120px;
+        height: 40px;
+        font-size: 1rem;
+        font-weight: 700;
+        color: #fff;
+        border: none;
+        transition: .3s;
+        cursor: pointer;
+    }
+    .button_div button:hover {
+        color: rgb(231, 180, 93, 50);
+        background: #fff;
+        border: 1px solid #e7b45d;
+    }
+    
+    #comments {
+        width: 90%;
+        padding: .5rem;
+        
+    }
     
 
 
