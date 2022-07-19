@@ -506,8 +506,8 @@
 
     .big_service {
         background: #fff;
-        width: 300px;
-        height: 250px;
+        width: 350px;
+        height: 300px;
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
@@ -515,9 +515,14 @@
         padding: 1rem;
         border-radius: 1rem;
         box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.38);
+        transition: .3s;
+    }
+    .big_service:hover {
+        transform: translateY(-10px)
     }
     
     .big_service p {
+        font-size: 1.2rem;
         text-align: center;
     }
 
@@ -548,6 +553,10 @@
     }
     .small_services {
         width: 120px;
+        transition: .3s;
+    }
+    .small_services:hover {
+        transform: translateY(-15px)
     }
 
     .small_services img {

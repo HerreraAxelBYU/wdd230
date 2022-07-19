@@ -541,8 +541,11 @@
         padding: 1rem;
         border-radius: 1rem;
         box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.38);
+        transition: .3s;
     }
-    
+    .big_service:hover {
+        transform: translateY(-10px)
+    }
     .big_service p {
         text-align: center;
     }
