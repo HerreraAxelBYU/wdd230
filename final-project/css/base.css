@@ -557,6 +557,49 @@
         text-align: center;
     }
     
+    .sign_reservation2 {
+        width: 90%;
+        padding: 1rem;
+        background: #fff;
+    }
 
+    .sign_reservation2 {
+        width: 100%;
+        background: #fff;
+    }
+
+    .services_container2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        margin-top: 1rem;
+    }
+
+    .free_services {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin: 0 0 0 4rem;
+        gap: 1rem;
+    }
+    .small_services {
+        width: 150px;
+    }
+
+    .small_services img {
+        width: 70px;
+    }
+    
+    .small_services p {
+        text-align:start;
+    }
+
+    .small_services img:hover p {
+        color: beige;
+    }
 
 }
