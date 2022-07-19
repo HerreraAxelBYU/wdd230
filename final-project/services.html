@@ -13,6 +13,14 @@
 
 
     <title>Temples</title>
+
+    <style>
+        body {
+            background: #e7b45d;
+        }
+    </style>
+
+
 </head>
 <body>
     <header class="general__header">
@@ -28,18 +36,55 @@
                 <li><a href="./index.html">Home</a></li>
                 <li><a href="./temple.html" >Temple</a></li>
                 <li><a href="./reservation.html">Reservation</a></li>
-                <li><a href="./services.html" class="active_link">Services</a></li>
+                <li class="dropmenu"><a href="./services.html" class="active_link">Services</a>
+                    <li class="tiny_menu hide">
+                        <a href="">Reception</a>
+                        <a href="">Full-time temple misionary</a>
+                    </li>
+                </li>
             </ul>
 
             <div class="navbar_icons">
                 <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
                 <a href="" class="home__social-icon"><i class='bx bxl-instagram'></i></a>
                 <a href="" class="home__social-icon"><i class='bx bxl-facebook-circle'></i></a>
-
             </div>
         </nav>
     </header>
     
 
+    <h1 class="services_tittle">Learn more about our Services</h1>
+
+    
+    <div class="services_container">
+        <div class="specialize_services">
+            <div class="big_service">
+                <img src="./images/child-reaching-solid.svg" alt="babysitting services">
+                <p>A playroom and low-cost, short-term babysitting services for the children of patrons</p>
+            </div>
+            <div class="big_service">
+                <img src="./images/kitchen-set-solid.svg" alt="kitchen services">
+                <p>Long-term stay accommodations in kitchenette suites for full-time temple missionaries</p>
+            </div>
+            <div class="big_service">
+                <img src="./images/synagogue-solid.svg" alt="temple">
+                <p>Temple history themed reception and sitting area</p>
+            </div>
+            <div class="big_service">
+                <img src="./images/heart-solid.svg" alt="wedding services">
+                <p>A wedding reception hall that can be easily customized with a simple catering menu and kitchen access for food preparation and serving</p>
+            </div>
+            <div class="big_service">
+                <img src="./images/baby-carriage-solid.svg" alt="family search services">
+                <p>A family search center that supports family search and ordinance work</p>
+            </div>
+            <div class="big_service">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./js/services.js"></script>
     <script src="./js/script.js"></script>
 </body>
