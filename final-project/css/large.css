@@ -713,8 +713,9 @@
 
     .suits_buttons button {
         background: #e7b45d;
-        color: #fff;
-        padding: .5rem;
+        color: #333;
+        font-weight: 600;
+        padding: 1rem;
         border: none;
         transition: .3s;
         cursor: pointer;
