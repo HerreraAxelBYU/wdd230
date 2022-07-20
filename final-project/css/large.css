@@ -306,7 +306,7 @@
         
     }
     
-    .img_container_2 {
+    .picture_container {
         grid-column: 2/3;
         grid-row: 2/3;
     }

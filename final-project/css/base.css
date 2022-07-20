@@ -311,10 +311,11 @@ body {
     }
 
     .img_container {
-        width: 100%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin: 0 auto;
         gap: .5rem;
     }
     .temple_section_2 h2{
