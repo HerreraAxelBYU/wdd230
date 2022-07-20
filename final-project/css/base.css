@@ -17,6 +17,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #e7b45d;
+}
+
 
 
 
@@ -603,6 +607,50 @@
 
     .small_services img:hover p {
         color: beige;
+    }
+
+    /*
+    
+    ====== RECEPTION PAGE ==========
+    
+    */
+
+    .reception {
+        width: 100%;
+        height: auto;
+        margin: 4rem 1rem;
+    }
+
+    .wedding_pictures {
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .reception picture img {
+        width: 100%;
+        box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.38);
+    }
+
+    .reception h1 {
+        margin: 1rem 0;
+    }
+
+    .reception h3 {
+        margin-top: 1rem;
+    }
+
+    .reception p {
+        width: 90%;
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    .reception ul li {
+        margin-left: 1rem;
+        padding: .3rem;
     }
 
 }

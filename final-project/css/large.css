@@ -586,6 +586,46 @@
         color: beige;
     }
 
+    /*
+    
+    ====== RECEPTION PAGE ==========
+    
+    */
 
+    .reception {
+        width: 80%;
+        height: auto;
+        margin:5rem auto;
+    }
+
+    .wedding_pictures {
+        width: 80%;
+        display: flex;
+        gap: 2rem;
+    }
+
+    .reception picture img {
+        width: 100%;
+        box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.38);
+    }
+
+    .reception h1 {
+        margin: 1rem 0;
+    }
+
+    .reception h3 {
+        margin-top: 1rem;
+    }
+
+    .reception p {
+        width: 60%;
+        font-size: 1rem;
+        margin: 1rem 0;
+    }
+
+    .reception ul li {
+        margin-left: 1rem;
+        padding: .3rem;
+    }
 
 }
