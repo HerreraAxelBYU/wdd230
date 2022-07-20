@@ -291,6 +291,15 @@
     .contact_button button a {
         text-align: center;
         margin: 0;
+        font-weight: 600;
+        color: #333
+    }
+
+    .last__modification {
+        text-align: center;
+        color: #fff;
+        font-weight: 600;
+        grid-column: 1/4;
     }
 
 

@@ -145,9 +145,6 @@
         height: 50px;
     }
 
-    .contact_button a {
-        color: #2f4f94;
-    }
 
     .home__main {
         background-color: var(--color1);
@@ -236,6 +233,17 @@
     footer img {
         top: 0;
         width: 150px;
+    }
+    .contact_button button a {
+        text-align: center;
+        margin: 0;
+        color: #333;
+        font-weight: 600;
+    }
+
+    .last__modification {
+        color: #fff;
+        font-weight: 600;
     }
 
     /*

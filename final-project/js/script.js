@@ -17,3 +17,11 @@ lista.addEventListener('mouseenter', show_menu);
 function show_menu() {
     mini_lista.classList.toggle('hide');
 }
+
+
+const fecha = new Date();
+const today = new Date(document.lastModified);
+const current_date = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	today);
+const date = document.querySelector('.last__modification');
+date.textContent =`Last modification: ${document.lastModified}`;

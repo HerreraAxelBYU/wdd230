@@ -268,6 +268,13 @@
     .contact_button button a {
         text-align: center;
         margin: 0;
+        font-weight: 600;
+        color: #333
+    }
+
+    .last__modification {
+        color: #fff;
+        font-weight: 600;
     }
 
     /*

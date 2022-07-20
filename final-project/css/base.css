@@ -267,7 +267,8 @@ body {
 
     footer {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(1,1fr);
+        grid-template-rows: 20% auto auto auto;
         align-items: center;
         justify-items: center;
         background: var(--color3);
@@ -276,9 +277,9 @@ body {
     }
 
     footer a {
-        margin-left: 4rem;
         width: 90%;
         text-decoration: none;
+        text-align: center;
         color: #fff;
     }
 
@@ -286,7 +287,6 @@ body {
         display: flex;
         justify-content: center;
         width: 100%;
-        grid-column: 1/3;
 
     }
 
@@ -299,8 +299,7 @@ body {
 
     .contact_button {
         margin-top: 1rem;
-        grid-column: 1/3;
-        grid-row: 1/2;
+        grid-row: 2/3;
     }
 
     .contact_button button {
@@ -313,11 +312,15 @@ body {
     .contact_button button a {
         text-align: center;
         margin: 0;
+        color: #333;
+        font-weight: 600;
     }
 
-    .contact_button a {
+    .last__modification {
         color: #fff;
+        font-weight: 600;
     }
+
 
 
     /*
