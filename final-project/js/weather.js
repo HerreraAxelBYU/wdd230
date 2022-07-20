@@ -1,36 +1,69 @@
-const temperature = document.querySelector('#temperature');
-const weather_like = document.querySelector('#description');
-const wind = document.querySelector('#wind');
-const wind_chill = document.querySelector('#wind_chill');
-const image = document.querySelector('.weather__widget');
+const widget = document.querySelector('.weather');
+const lat = 38.983285138932125;
+const lot = -77.09554253083883;
 
-const getAPI = async (ciudad, pais) => {
+const getapi2 = async (lon, lat) => {
     const appKey = '0ee4f6cf1bc5830b3c91d26d07461764';
-    const url = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appKey}`);
+    const url = await fetch(`https://api.openweathermap.org/data/2.5/onecall?lat=${lat}&lon=${lon}&exclude={part}&appid=${appKey}`)
 
     info = await url.json();
 
-    showWeather(info);
-    
+    let {current:  current } = info;
+    let {daily: daily} = info;
+    const lunes = daily[0];
+    const todoslosdias = [daily[0],daily[1],daily[2]] 
+
+    console.log(info)
+    /*
+    todoslosdias.forEach(dia => {
+        console.log(dia.weather[0].description);
+        console.log(kelvinToCelcius(dia.temp.max));
+        console.log(dia.humidity);
+    */
+
+    showWeather(todoslosdias);
+
+   
 }
 
+getapi2(lot, lat);
 
 const showWeather = (info) => {
 
-    let { main: {temp, feels_like}} = info;
-    let { weather: {0: type_weather}} = info;
-    let { wind: speed} = info;
+    //const todos = [info[0],info[1],info[2]]
+    
+    info.forEach(datos => {
+        const card = document.createElement('div');
+        const widget_container = document.createElement('div');
+        const temperatura_max = document.createElement('h4');
+        const temperatura_min = document.createElement('h6')
+        const description_p = document.createElement('p');
+        const humidity = document.createElement('p');
+        const image = document.createElement('picture');
+        const info_desc = datos.weather[0].main;
+        
+        temperatura_max.textContent = `Max Temp: ${kelvinToCelcius(datos.temp.max)}°`;
+        temperatura_min.textContent = `Min Temp: ${kelvinToCelcius(datos.temp.min)}°`;
+        description_p.textContent = datos.weather[0].description;
+        humidity.textContent = `Humidity: ${datos.humidity}%`;
 
-    const temperature_celsius = kelvinToCelcius(temp);
-    const description = type_weather
-    const wind_speed = speed.speed
+        card.classList.add('weather_card');
+        widget_container.classList.add('widget_containerr');
 
-    temperature.innerHTML = `${temperature_celsius} &#8451`
-    weather_like.innerHTML = description.description;
-    weather_like.style.textAlign = 'center';
-    wind.innerHTML = `Wind Speed ${wind_speed} Km/h`;
+        icons(info_desc, image);
+        
+        widget_container.appendChild(image);
+        widget_container.appendChild(description_p);
+        card.appendChild(widget_container)
+        card.appendChild(temperatura_max);
+        card.appendChild(temperatura_min);
+        card.appendChild(humidity);
+        widget.appendChild(card)
+    });
+    
 
-    icons(description.main, image);
+
+    
     
 }
 
@@ -92,5 +125,5 @@ const icons = (weather, div) => {
 
 }
 
-getAPI('Buenos aires', 'AR');
+
 
