@@ -15,15 +15,13 @@
     <link rel="stylesheet" href="./css/large.css">
     <link rel="stylesheet" href="./css/widescreen.css">
 
-
-    <title>Home</title>
+    <title>Document</title>
 </head>
 <body>
-
-    <!-- H E A D E R -->
+    
     <header class="general__header">
         <picture class="logo">
-            <source class="logo-mobile" media="(max-width: 700px" srcset="./images/templeinnlogomobile.png">
+            <source class="logo-mobile" media="(max-width: 700px") srcset="./images/templeinnlogomobile.png">
             <img src="./images/templeinnlogo.png" alt="temple inn and suites logo ">
         </picture>
         <div class="hamburguer">
@@ -49,51 +47,55 @@
 
             </div>
         </nav>
-    </header> <!-- H E A D E R -->
+    </header>
 
-    <!-- P O R T A D A -->
-    <section class="portada">
-        <picture>
-            <source media="(max-width: 700px)" srcset="./images/templo1_640.webp">
-            <img src="./images/templo1_1920.webp" alt="Temple">
-        </picture>
-        <h1 class="portada__h1">Welcome to Temple Inn & Suites</h1>
-        <p class="portada__p">Sometimes the most productive thing you can do is rest.</p>
-    </section> <!-- P O R T A D A -->
+    <main class="suits_contact">
 
-    <!-- R E S E R V A T I O N   I N V  -->
-    <section class="sign_reservation">
-        <h2>Make your Reservation Today!</h2>
-        <button>Make Reservation</button>
-    </section> <!-- R E S E R V A T I O N   I N V  -->
-
-    <main class="home__main">
-        <div class="weather"> <!-- C A R D -->
-            <div class="weather__widget"></div>
-            <div class="weather__description">
-                <p id="temperature"></p>
-                <p id="description"></p>
-                <p id="wind"></p>
+        <section class="suits">
+            <div class="suit_options">
+                <h2>Type of Suits</h2>
+                <div class="suits_buttons">
+                    <button id="suite1">Suite</button>
+                    <button id="suite2">Junior Suite</button>
+                    <button id="suite3">Gran Suite</button>
+                    <button id="suite4">Individual</button>
+                    <button id="suite5">Dubble</button>
+                </div>
             </div>
-        </div> <!-- W E A T H E R  W I D G E T -->
-        <section class="home_section">
             
             <picture>
-                <img class="bs_temple" src="" alt="">
-            </picture> 
-
+                <img src="./images/hotel-room-1447201_640.jpg" alt="Hotel room">
+            </picture>
+            <p id="suite_p">double room with bathroom and living room with a minimum area of ​​12 m2</p>
         </section>
-        
     </main>
-    <!-- W E A T H E R  W I D G E T -->
-    
-    <footer>
-        <picture>
-            <img src="./images/templeinnlogomobile.png" alt="">
-        </picture>
-    </footer>
+
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>The Temple Inn & Suites</h3>
+          <h4>Contact us</h4>
+          <fieldset class="field_contact">
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset class="field_contact">
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset class="field_contact">
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" required>
+          </fieldset>
+          <fieldset class="field_contact">
+            <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
+          </fieldset>
+          <fieldset class="field_contact">
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset class="field_contact">
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+
     <script src="./js/script.js"></script>
-    <script src="./js/weather.js"></script>
-    <script src="./js/home_temple.js"></script>
+    <script src="./js/suits.js"></script>
 </body>
 </html>

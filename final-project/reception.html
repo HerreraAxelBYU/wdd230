@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link
-      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;700;900&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"rel="stylesheet"/>
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/medium.css" />
     <link rel="stylesheet" href="./css/large.css" />
@@ -19,15 +20,8 @@
   <body>
     <header class="general__header">
       <picture class="logo">
-        <source
-          class="logo-mobile"
-          media="(max-width: 700px"
-          srcset="./images/templeinnlogomobile.png"
-        />
-        <img
-          src="./images/templeinnlogo.png"
-          alt="temple inn and suites logo "
-        />
+        <source class="logo-mobile" media="(max-width: 700px" srcset="./images/templeinnlogomobile.png"/>
+        <img src="./images/templeinnlogo.png" alt="temple inn and suites logo "/>
       </picture>
       <div class="hamburguer">
         <button class="hambuger" id="hamburger-button">
@@ -37,12 +31,15 @@
       <nav class="small stroke" id="menu_mobile">
         <ul id="small_menu">
           <li><a href="./index.html">Home</a></li>
-          <li><a href="./temple.html">Temple</a></li>
-          <li>
-            <a href="./reservation.html" class="active_link">Reservation</a>
+          <li><a href="./temple.html" >Temple</a></li>
+          <li><a href="./reservation.html">Reservation</a></li>
+          <li class="dropmenu"><a href="./services.html" class="active_link">Services</a>
+              <li class="tiny_menu hide">
+                  <a href="./reception.html">Reception</a>
+                  <a href="./temple_missionary.html">Full-time temple misionary</a>
+              </li>
           </li>
-          <li><a href="./services.html">Services</a></li>
-        </ul>
+      </ul>
 
         <div class="navbar_icons">
           <a href="" class="home__social-icon"
