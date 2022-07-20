@@ -180,6 +180,10 @@ body {
         transition: .4s;
     }
 
+    .sign_reservation button a {
+        color: #fff;
+    }
+
     .sign_reservation button:hover {
         color: #406AC6;
         background: #fff;
