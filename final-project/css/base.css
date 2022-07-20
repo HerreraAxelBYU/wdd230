@@ -148,10 +148,12 @@ body {
     .portada__p {
         position: absolute;
         top: 60%;
+        width: 90%;
         font-size: 1rem;
         background-color: rgba(0,0,0,0.50);
         color: #fff;
         padding: .2rem;
+        text-align: center;
     }
 
     .sign_reservation {
