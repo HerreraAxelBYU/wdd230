@@ -297,7 +297,6 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         align-content: center;
-        box-shadow: 1px ;
         box-shadow: 1px 4px 6px 0px rgba(0,0,0,0.38);
         opacity: 1;
         transition: opacity .3s ease-in-out;
