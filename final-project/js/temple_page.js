@@ -291,6 +291,12 @@ const rio_janeiro_temple = (json) => {
     principal_4.appendChild(telephone);
     closure_2022_4.appendChild(li)
     closure_2023_4.appendChild(li)
+
+    rio_service.forEach(servicio => {
+      const li = document.createElement('li');
+      li.textContent = servicio;
+      services_ul_4.appendChild(li)
+    });
     
 
       // LOOP TO BRING THE HISTORY

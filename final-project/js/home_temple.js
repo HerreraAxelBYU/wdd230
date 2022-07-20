@@ -35,7 +35,7 @@ fetch(temples_url)
     h2.textContent = bs_name;
     p1.textContent = bs_adress;
     p2.textContent = bs_telephone;
-    h3.textContent = "Servicios:"
+    h3.textContent = "Services:"
 
     bs_service.forEach(servicio => {
       const li = document.createElement('li');
